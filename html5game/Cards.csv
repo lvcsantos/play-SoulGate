@@ -1,0 +1,27 @@
+Name,IP,Type,Subtype,Class,Subclass,Image,Rarity,Cost,HP,Zone,Attack_Value,Ability_Name_1,Ability_Name_2,Ability_Name_3,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Trait_Type_3,Trait_Name_3,Trait_Type_4,Trait_Name_4
+Lazarus,Sneks,Hero,,Zombie,,Lazarus,Legendary,0,300,Ranged,20,Double Tap,Life Cycle,Resurrect,Body,Zombie,Fans,Zombie,Mouth,Fangs,Snek Type,2 Headed
+Yaza,Sneks,Hero,,Alien,,Yaza,Legendary,0,300,Melee,20,Mind Read,Haunting Lick,Mind Control,Body,Alien,Fans,Alien,Mouth,Tongue Purple,Hats,Pharaoh Red
+Zombie Champion,Sneks,Ally,,Zombie,,Lazarus' Champion,Rare,5,50,Melee,40,Double Tap,Rotting Aura,Raise Zombie,Body,Zombie,Hats,Angel Halo Green,Snake Type,2 Headed,,
+Agent of Rot,Sneks,Ally,,Zombie,,Agent of Rot,Rare,3,30,Melee,20,Laser Beam,Venom Horns,,Body,Zombie,Hats,Horns Green,Glasses,Laser Eyes,,
+Zombie Snekinja,Sneks,Ally,,Zombie,Ninja,Undead Snekinja,Rare,1,20,Ranged,10,Grave Ninjutsu,Laced Shuriken,,Body,Zombie,Hats,Ninja Hood,,,,
+Tutankhensum,Sneks,Ally,,Alien,,Tutankhensum,Rare,2,30,Ranged,20,Exalted Deity,Meditate,,Body,Alien,Hats,Pharaoh Red,,,,
+Psychic Snekinja,Sneks,Ally,,Alien,Ninja,Psychic Snekinja,Rare,3,30,Ranged,20,Purple Haze,Psy Darts,,Body,Alien,Hats,Ninja Hood,,,,
+Agent of Psy,Sneks,Ally,,Alien,,Agent of Psy,Rare,3,30,Ranged,20,Laser Beam,Abduction,,Body,Alien,Glasses,Laser Eyes,,,,
+Snekurai,Sneks,Ally,,Earth,Ninja,Snekurai,Rare,2,20,Melee,30,Iaijutsu,Kenjutsu Slash,,Body,Green,Outfits,Katana,,,,
+Garden Snek,Sneks,Ally,,Earth,,Garden Snek,Common,1,20,Melee,20,Grass Blades,,,Body,Green,,,,,,
+Dark Snekix,Sneks,Ally,,Shadow,,Dark Snekix,Uncommon,2,30,Ranged,20,Stealth,Death Breath,,Body,Black,Mouth,Fire Breath Pink,Skin,Light Orange,Eyes,Aqua
+Bonkimus Prime,Bonk,Ally,Dog,Warrior,,Bonkimus Prime,Epic,3,40,Melee,25,,,,,,,,,,,
+Nebulous Snek,Sneks,Ally,,Shadow,,Nebulous Snek,Common,1,20,Melee,10,Stealth,,,,,,,,,,
+Rotten Pool,SoulGate,Spell,Ritual,Zombie,,Curse,Uncommon,4,,,,,,,,,,,,,,
+Death Pit,SoulGate,Spell,Trap,Zombie,,Trap,Rare,3,,,,,,,,,,,,,,
+Revitalize,SoulGate,Spell,Sorcery,Zombie,,Invocation,Common,2,,,,,,,,,,,,,,
+Snek Staff,Sneks,Item,Weapon,Neutral,,Staff,Rare,4,,,,,,,,,,,,,,
+Foul Tonic,SoulGate,Item,Consumable,Zombie,,Foul Tonic,Uncommon,3,,,,,,,,,,,,,,
+Smoke Bomb,SoulGate,Item,Consumable,Neutral,,Shadow Vial,Common,2,,,,,,,,,,,,,,
+Healing Potion,SoulGate,Item,Consumable,Neutral,,Healing Potion,Common,2,,,,,,,,,,,,,,
+Mana Burst,SoulGate,Item,Consumable,Neutral,,Mana Burst,Common,1,,,,,,,,,,,,,,
+Shadow Strike,SoulGate,Spell,Sorcery,Shadow,,Invocation,Uncommon,2,,,,,,,,,,,,,,
+Illithid Act,SoulGate,Spell,Trap,Alien,,Trap,Uncommon,3,,,,,,,,,,,,,,
+Magic Mirror,SoulGate,Spell,Trap,Alien,,Trap,Uncommon,3,,,,,,,,,,,,,,
+Snek Eyez,Sneks,Spell,Sorcery,Neutral,,,,1,,,,,,,,,,,,,,
+Eye of Horus,SoulGate,Item,Armor,Neutral,,,,2,,,,,,,,,,,,,,
