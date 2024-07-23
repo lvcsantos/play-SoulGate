@@ -1,6 +1,6 @@
 Name,IP,Type,Subtype,Class,Image,Rarity,Cost,HP,Zone,Attack_value,Abilities,Passives,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Trait_Type_3,Trait_Name_3,Trait_Type_4,Trait_Name_4,Trait_Type_5,Trait_Name_5,Trait_Type_6,Trait_Name_6,Trait_Type_7,Trait_Name_7,Trait_Type_8,Trait_Name_8
-Lazarus,Sneks,Hero,Zombie Reptile,Necro,,Legendary,,300,Melee,20,Life Cycle;Resurrect,Double Tap,Body,Zombie,Fans,Zombie,Mouth,Fangs,Snek Type,2 Headed,,,,,,,,
-Yaza,Sneks,Hero,Alien Reptile,Psychic,,Legendary,,300,Ranged,20,Mind Read;Mind Control,,Body,Alien,Fans,Alien,Mouth,Tongue Purple,Hats,Pharaoh Blue,,,,,,,,
+Lazarus,Sneks,Hero,Zombie Reptile,Necro,,Legendary,,200,Melee,10,Life Cycle;Resurrect,Double Tap,Body,Zombie,Fans,Zombie,Mouth,Fangs,Snek Type,2 Headed,,,,,,,,
+Yaza,Sneks,Hero,Alien Reptile,Psychic,,Legendary,,200,Ranged,15,Mind Read;Mind Control,,Body,Alien,Fans,Alien,Mouth,Tongue Purple,Hats,Pharaoh Blue,,,,,,,,
 Zombie Champion,Sneks,Ally,Zombie Reptile,Necro,,Epic,5,65,Melee,30,Rotting Aura;Raise Zombie,Double Tap,Body,Zombie,Hats,Angel Halo Green,Snake Type,2 Headed,,,,,,,,,,
 Agent of Rot,Sneks,Ally,Reptile Zombie,Necro,,Epic,3,45,Melee,20,Laser Beam;Venomous,,Body,Zombie,Hats,Horns Green,Glasses,Laser Eyes,,,,,,,,,,
 Zombie Snekinja,Sneks,Ally,Reptile Zombie Ninja,Necro,,Epic,1,10,Ranged,20,Ninjutsu;Laced Shuriken,,Body,Zombie,Hats,Ninja Hood,,,,,,,,,,,,
