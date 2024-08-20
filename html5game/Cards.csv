@@ -3,7 +3,7 @@ Lazarus,Sneks,Hero,Zombie Reptile,Necro,,Legendary,,200,Melee,10,Life Cycle;Resu
 Yaza,Sneks,Hero,Alien Reptile,Psychic,,Legendary,,200,Ranged,15,Mind Read;Mind Control,,Body,Alien,Fans,Alien,Mouth,Tongue Purple,Hats,Pharaoh Blue,,,,,,,,
 Zombie Champion,Sneks,Ally,Zombie Reptile,Necro,,Epic,5,65,Melee,30,Rotting Aura;Raise Zombie,Double Tap,Body,Zombie,Hats,Angel Halo Green,Snake Type,2 Headed,,,,,,,,,,
 Agent of Rot,Sneks,Ally,Reptile Zombie,Necro,,Epic,3,45,Melee,20,Laser Beam;Venomous,,Body,Zombie,Hats,Horns Green,Glasses,Laser Eyes,,,,,,,,,,
-Zombie Snekinja,Sneks,Ally,Reptile Zombie Ninja,Necro,,Epic,1,10,Ranged,20,Ninjutsu;Laced Shuriken,,Body,Zombie,Hats,Ninja Hood,,,,,,,,,,,,
+Zombie Snekinja,Sneks,Ally,Reptile Zombie Ninja,Necro,0,Epic,1,10,Ranged,20,Ninjutsu;Laced Shuriken,,Body,Zombie,Hats,Ninja Hood,,,,,,,,,,,,
 Tutankhensum,Sneks,Ally,Alien Reptile God,Psychic,,Rare,4,40,Melee,15,Exalted Deity,,Body,Alien,Hats,Pharaoh Red,,,,,,,,,,,,
 Psychic Snekinja,Sneks,Ally,Alien Reptile Ninja,Psychic,,Epic,2,25,Ranged,25,Mental Haze;Psy Darts,Iaijutsu,Body,Alien,Hats,Ninja Hood,,,,,,,,,,,,
 Agent of Psy,Sneks,Ally,Alien Reptile,Psychic,,Rare,3,45,Ranged,20,Laser Beam,,Body,Alien,Glasses,Laser Eyes,,,,,,,,,,,,
@@ -14,7 +14,7 @@ Nebulous Snek,Sneks,Ally,Reptile,Shadow,,Common,1,20,Melee,15,,Stealth,Body,Blac
 Psysnek,Sneks,Ally,Reptile,Psychic,,Uncommon,2,35,Melee,20,Horns of Valor,,,,,,,,,,,,,,,,,
 Zombie Snek,Sneks,Ally,Reptile Zombie,Necro,,Uncommon,1,20,Melee,20,,,,,,,,,,,,,,,,,,
 Ramses XXXIII,DeGods,Ally,God,Necro,,Legendary,4,65,Ranged,40,Kingsguard;Death R,,,,,,,,,,,,,,,,,
-"Zox, Galactic Menace",GGSG,Ally,Reptile,Warrior,,Legendary,3,50,Melee,30,Target Lock;Gibbous Gamble,Rampage;Shield,Helmet,Gibbous Blaster,Eyes,Mixed Reality Grid,Armor,Electromagnetic Ring,Ears,Escape Rockets,Faction,Martu,Body ,Lime,Mouth,Pleased,Attribute Count,7
+Zox Galactic Menace,GGSG,Ally,Reptile,Warrior,,Legendary,3,50,Melee,30,Target Lock;Gibbous Gamble,Rampage;Shield,Helmet,Gibbous Blaster,Eyes,Mixed Reality Grid,Armor,Electromagnetic Ring,Ears,Escape Rockets,Faction,Martu,Body ,Lime,Mouth,Pleased,Attribute Count,7
 Sid,Cets,Ally,Cat,Earth,,Epic,2,30,Melee,15,Magic Trip;Dream Garden,,,,,,,,,,,,,,,,,
 Rex,Claynosaurz,Ally,Reptile,Warrior,,Epic,6,80,Melee,20,Dino Smash,Skyscraper,Species,Rex,Skin,Toxic,Color,Amethyst,Mood,Sleepy,Motion,Walk,,,,,,
 Monty the White,Solana Monke Business,Ally,Monkey,Water,,Legendary,5,50,Ranged,30,Bananatron,Elemental Attack,Species,Snow,Clothes,Conjuror's Robes,Hat,Conjuror's Hat,Eyes,Wink,,,,,,,,
