@@ -1,0 +1,7 @@
+Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Target_Type,Target_Value,Damage,Condition,Effect,Recoil,Description
+Rotten Pool,Soul Gate,Spell,Ritual,Necro,,Uncommon,4,Ally_E; Adjacent,1,,venomed_3,,,Give venomed 3 to two adjacent enemies.
+Revitalize,Soul Gate,Spell,Invocation,Radiant,,Uncommon,2, Ally_F,1,,,Draw 1,,Draw a card and Restore 30 HP to friendly unit.
+Shadeshift,Soul Gate,Spell,Invocation,Shadow,,Uncommon,4,Ally_F,2,,,,,Give Stealth and +20 Attack to two Allies.
+Illithid Act,Soul Gate,Spell,Trap,Psychic,,Uncommon,3,Ally_E,1,,,Control 2,,"When the next enemy ally is played, gain control of it for 2 turns."
+Magic Mirror,Soul Gate,Spell,Trap,Neutral,,Uncommon,3,,,,,Counter,,"When the next enemy spell or ability is cast, counter and redirect it to new target(s)."
+Papyrus of Imhotep,Soul Gate,Spell,Consumable,Neutral,,Rare,2,,1,,,,,Play a random Item or Spell from your deck.
