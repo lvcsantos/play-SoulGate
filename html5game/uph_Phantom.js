@@ -18,7 +18,7 @@ const getProvider = () => {
   window.open("https://phantom.app/", "_blank");
 };
 
-async function ConnectToPhantom() {
+async function ConnectToPhantom(queueId) {
   try {
     const provider = window.phantom?.solana;
 
