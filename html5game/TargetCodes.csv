@@ -1,0 +1,26 @@
+Name,Code,Type,Target,Description
+Friendly Units,afu,broad,units_friendly,Target all friendly units (i.e. allies + hero)
+Friendly Allies,afa,broad,allies_friendly,Target all friendly allies
+Enemies,aeu,broad,units_enemy,Target all enemy units
+Enemy Allies,aea,broad,allies_enemy,Target all enemy allies
+Select Enemy Allies,sea_X,selectors,allies_enemy,Target X Enemy allies
+Select Friendly Allies,sfa_X,selectors,allies_friendly,Target X friendly allies
+Select Enemy Units,seu_X,selectors,units_enemy,Target X enemy units
+Select Friendly Units,sfu_X,selectors,units_friendly,Target X friendly units
+,,,,
+Stealthed Allies,afs,,,Target all friendly units with Stealth
+Soul Gate,sg,,,Targets the Soul Gate
+Scry Cards,so_X,,,Targets the Cards for Scry
+Tribal Allies,aft_{type},,,Target all friendly allies of {type}
+Friendly Melee Zone,fmz,,,Target slots in friendly melee zone
+Friendly Ranged Zone,frz,,,Target slots in friendly ranged zone
+Friendly Any Zone,faz,,,Target slots in any friendly zone
+Trap Trigger,trp,,,Targets the unit which triggers the trap card
+Friendly Grave Allies,fga_X,,,Target X allies in your grave
+Any Grave Allies,aga,,,Target {Value} allies in any grave
+Friendly Deck,fd,,,Target your deck
+Any Deck,ad,,,Target either your deck or the enemy's deck
+Select Enemy Allies,sea_X,,,Target X enemy allies
+Adjacent Enemy Allies,jea,,,Targets adjacent enemies to a primary target
+Select Allies,sa_X,,,Target X allies
+Self,s,,,Target self
