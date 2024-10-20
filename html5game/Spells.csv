@@ -1,6 +1,6 @@
-Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Target_Type,Trigger,Effect_Card,Condition,Effect_Player,Recoil,Description
-Rotten Pool,Soul Gate,Spell,Ritual,Necro,,Uncommon,4,seu_1/cross,,,venomed_6/venomed_6,,,Give venomed 3 to cross enemies.
-Revitalize,Soul Gate,Spell,Invocation,Radiant,,Uncommon,2,sfu_1,,heal_30,,draw_1,,Draw a card and Restore 30 HP to friendly Character.
-Shadeshift,Soul Gate,Spell,Invocation,Shadow,,Uncommon,3,sfa_2,,passive_stealth/buff_dmg_20,,,,Give Stealth and +20 Attack to two Allies.
-Illithid Act,Soul Gate,Spell,Trap,Psychic,,Uncommon,3,,place_ally,,charmed_4,,,"When the next enemy ally is played, gain control of it for 2 turns."
-Magic Mirror,Soul Gate,Spell,Trap,Neutral,,Uncommon,3,,play_spell(Type_selectores),,,,,"When the next enemy spell is cast, counter and redirect it to new target(s)."
+Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Target_Type,Trigger,Effect_Card,Effect_Player,Recoil,Description
+Rotten Pool,Soul Gate,Spell,Ritual,Necro,,Uncommon,4,seu_1/cross,,condition_venomed_6/condition_venomed_6,,,Give venomed 3 to cross enemies.
+Revitalize,Soul Gate,Spell,Invocation,Radiant,,Uncommon,2,sfu_1,,heal_30,draw_1,,Draw a card and Restore 30 HP to friendly Character.
+Shadeshift,Soul Gate,Spell,Invocation,Shadow,,Uncommon,3,sfa_2,,passive_stealth|buff_dmg_20,,,Give Stealth and +20 Attack to two Allies.
+Illithid Act,Soul Gate,Spell,Trap,Psychic,,Uncommon,3,sea_1,place_ally,condition_charmed_4,,,"When the next enemy ally is played, gain control of it for 2 turns."
+Magic Mirror,Soul Gate,Spell,Trap,Neutral,,Uncommon,3,,play_spell(Type_selectors),,counter_spell,,"When the next enemy spell is cast, counter and redirect it to new target(s)."

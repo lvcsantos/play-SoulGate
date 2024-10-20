@@ -1,26 +1,59 @@
-Ability_Name,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Mana_Cost,Extra_Cost,Trigger,Target,Code_1,Value_1,Code_2,Value_2,Code_3,Value_3,Recoil,Text,
-Life Cycle,Body,Zombie,Mouth,Fangs,2,,Ac,seu_1,D,10,H_s,10,,,,Deal 10 necrotic damage to an enemy and heal self 10 HP.,
-Resurrect,Body,Zombie,Fans,Zombie,5,,Ac,aga_1,M_g,1,Re,2,,,,Return an ally from any grave to the battlefield under your control. Recoil 2.,
-Mind Read,Body,Alien,Hats,Pharaoh Blue,2,,Ac,ad,R_sy,1,,,,,,Scry 1 from either player's deck.,
-Mind Control,Body,Alien,Fans,Alien,5,,Ac,sea_1,M_c,1,Re,3,,,,Take control of an enemy ally. Recoil 3.,
-Haunting Lick,Mouth,Tongue purple,,,0,,Pa,seu_1,D,10,C_cf,,Re,1,,Give this unit 25% chance to add Paralyze 1 to basic attacks.,
-Kenjutsu Slash,Outfits,Katana,,,1,,Ac,seu_1,D,10,D_ra,4,,,,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",
-Woodskin Ritual,Hats,Angel Halo Green,,,4,,Ac,afu,P_ar,5,,,,,,"Give all Allies Shield.",
-Rotting Aura,Body,Zombie,Hats,Angel Halo Green,0,,Pa,aft_Zo,S_mu,10,,,,,,Allied Zombies get +10/+10.,
-Raise Zombie,Body,Zombie,,,2,M_e_1_aga_1,Ac,faz,U_SnZo_20,1,,,,,,"Exile an ally from a grave, then summon a 20/20 Zombie Snek.",
-Venomous,Hats,Horns Green,,,0,,Pa,,,,,,,,,This unit's basic attack gets Poison 1.,
-Laser Beam,Glasses,Laser Eyes,,,2,,Ac,seu_1,D,30,Re,1,,,,Deal 30 [arcane] damage to an enemy [unaffected by Armor]. Recoil 1.,
-Exalted Deity,Hats,Pharaoh Red,,,2,,Ac,s,S_ex,10,,,,,,This gets +10/+10 until end of turn for each friendly unit.,
-Mental Haze,Body,Alien,,,3,,Ac,aeu,C_cf,,Re,2,,,,All enemies become Confused. Recoil 2.,
-Psy Darts,Body,Alien,Hats,Ninja Hood,2,,Ac,seu_2,D,10,C_as,,Re,2,,2 enemies take 10 damage and have 50% chance to fall Asleep. Recoil 1.,
-Death Breath,Mouth,Fire Breath Pink,,,3,,Ac,jea_3,D,20,D,10,,,,"Deal 20 necrotic damage to a target enemy ally, and 10 necrotic damage to 2 adjacent allies.",
-Laced Shuriken,Hats,Ninja Hood,,,1,,Ac,seu_1,D,10,C_po,1,Re,1,,Deal 10 damage to target enemy. They get Poison 1. Recoil 1.,
-Meditate,Body,Alien,,,2,,Ac,fd,R,1,Re,1,,,,Draw 1 card. Recoil 1.,
-Bark Scales,Body,Green,,,0,,Pa,s,S_hp,10,,,,,,Boost unit's HP +10.,
-Grass Blades,Body,Green,,,0,,Pa,s,S_at,10,,,,,,Boost unit's basic attack +10.,
-Ninjutsu,Body,Zombie,Hats,Ninja Hood,2,,Ac,,,,,,,,,"If this is in the grave, switch places with a friendly ally. Recoil 2. ",
-Psionic Blast,Body,Alien,,,3,,Ac,sea_1,D,10,M_b,1,Re,1,,Deal 10 psionic damage to target enemy ally and return it to its owner's hand. Recoil 1.,
-Abduction,Body,Alien,,,2,,Ac,,,,,,Re,2,,Exile an enemy ally for 1 turn. It becomes Confused. Recoil 2.,
-KNOB Blaster,,,,,2,,Ac,seu_1,,,,,,,,Deal 20 damage to all enemies in a line.,
-Target Lock,,,,,1,,Ac,,,,,,,,,Reveal a random card from opponent's hand. The next attack or ability by Zox deals +20 damage.,
-Gibbous Gamble,,,,,2,,Ac,,,,,,,,,Flip a coin; if it's heads deal 30 damage to target enemy and self; if it's tails deal 60 damage.,
+Name,Cost,Type,Text,Collection,Traits,Confirm_Sprite,Middle_Spot
+Abduction,2,Active,Exile an enemy Ally for 1 turn. It becomes Confused. Recoil 2.,,"Body, Alien",FALSE,FALSE
+Backstab,1,Active,"If the next Attack target has a Condition, +20 damage. If this Character is Stealthed, +20 damage.",,,FALSE,FALSE
+Bananatron,2,Active,Summon a Bananatron. Recoil 6.,Solana Monke Business,"Species, Snow",FALSE,FALSE
+Bark Scales,0,Passive,Buff this Character's HP +20.,Sneks,"Body, Green",FALSE,FALSE
+Boon of Apophis,0,Passive,Buff Attack to hit adjacent enemies from the target for half damage (rounded down).,DeGods,,FALSE,FALSE
+Breath Aura,2,Active,Buff all Melee Allies +10 Attack and give them Shield. Recoil 3.,Sensei Pandas,,FALSE,FALSE
+Death Breath,3,Active,Deal 20 damage to target enemy and 10 damage to 2 adjacent allies.,,"Mouth, Fire Breath Pink",TRUE,FALSE
+Dino Smash,2,Active,Deal 15 damage to all Melee enemies.,Claynosaurz,"Species, Rex",FALSE,FALSE
+Double Tap,0,Passive,Make 2 Actions per turn.,Sneks,"Snake Type, 2 Headed",FALSE,FALSE
+Dream Garden,1,Active,"Target any Character: if it's friendly, Restore & Heal 10. If it's an enemy, give it Paralyze 2 & Poison 2.",Cets on Creck,Garden of Dreams,TRUE,FALSE
+Elemental Attack: Air,0,Passive,Buff Attack based on Elemental Class (Water: 25% chance to Freeze 1 target),,,FALSE,FALSE
+Elemental Attack: Earth,0,Passive,Buff Attack based on Elemental Class (Water: 25% chance to Freeze 1 target),,,FALSE,FALSE
+Elemental Attack: Fire,0,Passive,Buff Attack based on Elemental Class (Water: 25% chance to Freeze 1 target),,,FALSE,FALSE
+Elemental Attack: Water,0,Passive,Buff Attack based on Elemental Class (Water: 25% chance to Freeze 1 target),SMB,"Species, Snow",FALSE,FALSE
+Enrage,1,Active,This Character becomes Enraged (takes & deals +10 damage) for 2 turns. Recoil 3. ,,,FALSE,FALSE
+Enraged,0,Passive,This Character takes & deals +10 damage.,,,FALSE,FALSE
+Exalted Deity,2,Active,This gets +10/+0 until end of turn for each friendly unit. Recoil 1.,,"Hats, Pharaoh Red",FALSE,FALSE
+Flying,0,Passive,"This Character hovers in the air, avoiding melee attackers and evading melee blockers.",Sneks,"Fans, Dragon Wings",FALSE,FALSE
+Gibbous Gamble,2,Active,Flip a coin; if it's heads deal 30 damage to target enemy and self; if it's tails deal 60 damage.,GGSG,"Helmet, Gibbous Blaster",FALSE,FALSE
+Grass Blades,0,Active,Buff Attack +10.,,"Body, Green",FALSE,FALSE
+Haunting Lick,0,Active,Give this Character 25% chance to Paralyze 1 on Attacks.,,"Mouth, Tongue purple",FALSE,FALSE
+Iaijutsu,0,Passive,Grants Iaijutsu passive (can attack immediately),,"Outfits, Katana",FALSE,FALSE
+Iaijutsu,0,Passive,Grants Iaijutsu passive (can attack immediately),,"Body, Orange",FALSE,FALSE
+Ice Cannon,0,Active,Bananatron attacks a random enemy each turn for 15 damage.,Solana Monke Business,,FALSE,FALSE
+Kenjutsu Slash,1,Active,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",,"Outfits, Katana",TRUE,TRUE
+Kingsguard,3,Active,Summon up to 2 Zombie Sneks. Recoil 4.,DeGods,,FALSE,FALSE
+KNOB Blaster,2,Active,Deal 20 damage to all enemies in this lane.,Bonk,,TRUE,TRUE
+Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. Recoil 1.,,"Hats, Ninja Hood",FALSE,FALSE
+Laser Beam,2,Active,"Deal 15 damage to all enemies in this lane, ignores Shield. Recoil 1.",,"Glasses, Laser Eyes",TRUE,TRUE
+Life Cycle,2,Active,Deal 10 damage to an enemy and heal self 10 HP.,,"Body, Zombie; Mouth, Fangs",TRUE,FALSE
+Meditate,2,Active,Draw 1 card. Recoil 1.,,"Body, Alien",FALSE,FALSE
+Mental Haze,2,Active,All enemies become Confused. Recoil 2.,,"Body, Alien",FALSE,FALSE
+Mind Control,5,Active,Take control of an enemy ally. Recoil 3.,,"Body, Alien; Fans, Alien",FALSE,FALSE
+Mind Read,2,Active,Scry 1 from either player's deck.,,"Body, Alien; Hats, Pharaoh Blue",FALSE,FALSE
+Ninjutsu,2,Active,"If this is in the grave, it can still be played. Recoil 2.",,"Body, Zombie; Hats, Ninja Hood",FALSE,FALSE
+Pallasite,5,Active,Call down meteors to hit all enemies for 30 damage with 50% chances to Burn and Poison. Recoil 3. ,Dead King Society,,FALSE,FALSE
+Psionic Blast,3,Active,Deal 10 damage to 2 enemy Allies and return them to their owner's hand. Recoil 1.,,"Body, Alien",FALSE,FALSE
+Psy Darts,2,Active,Throw 2 darts of 10 damage and 50% Asleep chance to any target(s). Recoil 1.,,"Body, Alien; Hats, Ninja Hood",TRUE,FALSE
+Q'verse,3,Active,Open the Soul Gate. Double chances for a mercenary.,,,FALSE,FALSE
+Raise Dead,5,Active,Return an ally from any grave to the battlefield under your control. Recoil 2.,,"Body, Zombie; Fans, Zombie",FALSE,FALSE
+Raise Zombie,2,Active,"Exile an ally from any grave, then summon a 20/20 Zombie Snek.",,"Body, Zombie",FALSE,FALSE
+Rampage,0,Passive,Grants Rampage passive (deals excess damage to Hero),,,FALSE,FALSE
+Regen,0,Active,Heal 20HP at the start of your turn.,,,FALSE,FALSE
+Rotting Aura,0,Passive,Allied Zombies get +10/+10.,,"Body, Zombie; Hats, Angel Halo Green",FALSE,FALSE
+Sandstorm,2,Active,"For 2 turns, a cyclone of sand gusts on all enemy areas. Debuff -10 Attack, Land all fliers, and deal 5 damage.",,,FALSE,FALSE
+Shield,0,Passive,Grants Shield passive (counters 1 instance of damage),,"Fans, Angel Wings; Fans, Blue; Fans, Gold; Fans, Alien; Fans, Solana; Fans, Zombie; Fans, Rainbow",FALSE,FALSE
+Skyscraper,0,Active,Grants Skyscraper passive (can attack and block as if it had Flying),Claynosaurz,,FALSE,FALSE
+Snek Gaze,2,Active,Paralyze 1 target enemy. Recoil 1.,,,FALSE,FALSE
+Stealth,0,Passive,"Grants Stealth passive (hidden until Action, +10 Attack)",,"Body, Black",FALSE,FALSE
+Sun Disk,2,Active,Deal 30 damage to an enemy. 50% chance to get Burned.,,,FALSE,FALSE
+Target Lock,1,Active,Reveal a random card from opponent's hand. The next attack or ability by Zox deals +20 damage.,,"Eyes, Mixed Reality Grid",FALSE,FALSE
+Telekinesis,1,Active,Send 1 enemy Ally to the top of their deck. Recoil 3.,,"Body, Alien",FALSE,FALSE
+Teleport,0,Passive,"This Character's Attack can target any enemy, ignoring Block or Flying.",Saga Monkes,,FALSE,FALSE
+Venomous,0,Passive,This Character's Attack gets Poison 1.,,"Hats, Horns Green",FALSE,FALSE
+Woodskin Ritual,3,Active,Give all Allies Shield.,,"Outfits, Katana; Body, Green",FALSE,FALSE
+Hexproof,0,Passive,This Character cannot be targeted by Spells or Abilities.,,,FALSE,FALSE
+,,,,,,,FALSE
+Basic Attack,0,,,,,TRUE,TRUE
