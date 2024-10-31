@@ -1,28 +1,30 @@
-Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Description,Traits,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Trait_Type_3,Trait_Name_3,Trait_Type_4,Trait_Name_4,Trait_Type_5,Trait_Name_5,Trait_Type_6,Trait_Name_6,Trait_Type_7,Trait_Name_7,Trait_Type_8,Trait_Name_8
-Zombie Champion,Sneks,Ally,Zombie Reptile,Necro,,Epic,5,Melee,30,65,Raise Zombie,Double Tap;Rotting Aura,,"Body, Zombie; Hats, Angel Halo Green; Snake Type, 2 Headed",Body,Zombie,Hats,Angel Halo Green,Snake Type,2 Headed,,,,,,,,,,
-Agent of Rot,Sneks,Ally,Reptile Zombie,Necro,,Epic,3,Melee,20,45,Laser Beam,Venomous,,"Body, Zombie; Hats, Horns Green; Glasses, Laser Eyes",Body,Zombie,Hats,Horns Green,Glasses,Laser Eyes,,,,,,,,,,
-Zombie Snekinja,Sneks,Ally,Reptile Zombie Ninja,Necro,,Epic,1,Ranged,20,20,Ninjutsu;Laced Shuriken,,,"Body, Zombie; Hats, Ninja Hood",Body,Zombie,Hats,Ninja Hood,,,,,,,,,,,,
-Tutankhensum,Sneks,Ally,Alien Reptile God,Psychic,,Rare,4,Melee,15,40,Exalted Deity,,,"Body, Alien; Hats, Pharaoh Red",Body,Alien,Hats,Pharaoh Red,,,,,,,,,,,,
-Psychic Snekinja,Sneks,Ally,Alien Reptile Ninja,Psychic,,Epic,2,Ranged,25,30,Mental Haze;Psy Darts,Iaijutsu,,"Body, Alien; Hats, Ninja Hood",Body,Alien,Hats,Ninja Hood,,,,,,,,,,,,
-Agent of Psy,Sneks,Ally,Alien Reptile,Psychic,,Rare,3,Ranged,20,45,Laser Beam,,,"Body, Alien; Glasses, Laser Eyes",Body,Alien,Glasses,Laser Eyes,,,,,,,,,,,,
-Oaken Snekurai,Sneks,Ally,Reptile Ninja,Earth,,Legendary,2,Melee,30,30,Kenjutsu Slash;Woodskin Ritual,Iaijutsu,,"Body, Green; Outfits, Katana",Body,Green,Outfits,Katana,,,,,,,,,,,,
-Garden Snek,Sneks,Ally,Reptile,Earth,,Common,1,Melee,10,20,,Bark Scales,,"Body, Green",Body,Green,,,,,,,,,,,,,,
-Dark Snekix,Sneks,Ally,Reptile,Shadow,,Uncommon,2,Ranged,25,25,Death Breath,Stealth,,"Body, Black; Mouth, Fire Breath Pink; Skin, Light Orange; Eyes, Aqua",Body,Black,Mouth,Fire Breath Pink,Skin,Light Orange,Eyes,Aqua,,,,,,,,
-Nebulous Snek,Sneks,Ally,Reptile,Shadow,,Common,1,Melee,15,20,,Stealth,,"Body, Black",Body,Black,,,,,,,,,,,,,,
-Psysnek,Sneks,Ally,Reptile,Psychic,,Uncommon,2,Melee,20,35,Horns of Valor,,,"Body, Purple; Hats, Horns Yellow",,,,,,,,,,,,,,,,
-Zombie Snek,Sneks,Ally,Reptile Zombie,Necro,,Uncommon,1,Melee,20,20,,,,"Body, Zombie",,,,,,,,,,,,,,,,
-Ramses XXXIII,DeGods,Ally,God,Necro,,Legendary,4,Ranged,40,65,Kingsguard;Death Rain,Flying,,,,,,,,,,,,,,,,,,
-Zox Galactic Menace,Galactic Gecko Space Garage,Ally,Reptile,Warrior,,Legendary,3,Melee,30,50,Target Lock;Gibbous Gamble,Rampage;Shield,,"Helmet, Gibbous Blaster; Eyes, Mixed Reality Grid; Armor, Electromagnetic Ring; Ears, Escape Rockets; Faction, Martu; Body, Lime",Helmet,Gibbous Blaster,Eyes,Mixed Reality Grid,Armor,Electromagnetic Ring,Ears,Escape Rockets,Faction,Martu,Body ,Lime,Mouth,Pleased,Attribute Count,7
-Sid,Cets,Ally,Cat,Earth,,Epic,3,Melee,25,40,Dream Garden,,,,,,,,,,,,,,,,,,,
-Rex,Claynosaurz,Ally,Reptile,Warrior,,Epic,6,Melee,30,70,Dino Smash,Skyscraper,,"Species, Rex; Skin, Toxic; Color, Amethyst; Mood, Sleepy; Motion, Walk",Species,Rex,Skin,Toxic,Color,Amethyst,Mood,Sleepy,Motion,Walk,,,,,,
-Monty the White,Solana Monke Business,Ally,Monkey,Water,,Legendary,5,Ranged,25,50,Bananatron,Elemental Attack,,"Species, Snow; Clothes, Conjuror's Robes; Hat, Conjuror's Hat; Eyes, Wink",Species,Snow,Clothes,Conjuror's Robes,Hat,Conjuror's Hat,Eyes,Wink,,,,,,,,
-Bananatron,Solana Monke Business,Ally,Mecha,Water,,Legendary,2,Ranged,0,35,Ice Cannon,,,,,,,,,,,,,,,,,,,
-Bonk The Dog,Bonk,Ally,Dog,Warrior,,Epic,3,Melee,25,50,KNOB Blaster,,,,,,,,,,,,,,,,,,,
-Greenview,Pesky Penguins,Ally,Avian,Shadow,,Rare,3,Ranged,20,45,Shepard's Bane,Stealth;Arcane Shot,,"Type, Black; Head, Red Mohawk; Eyes, Aviators; Body, Black Suit",Head ,Red Mohawk,Type,Black,Eyes,Aviators,Body,Black Suit,,,,,,,,
-Caerus,Saga Monkes,Ally,Monkey,Warrior,,Rare,2,Melee,20,35,Laser Beam,Teleport,,,,,,,,,,,,,,,,,,
-Horus Falcon,Soul Gate,Ally,Avian,Radiant,,Uncommon,2,Melee,20,30,Sun Disk,Flying,,,,,,,,,,,,,,,,,,
-Deathstalker,Soul Gate,Ally,Bug,Earth,,Common,2,Ranged,20,30,,Venomous,,,,,,,,,,,,,,,,,,
-Serket Assassin,Soul Gate,Ally,Ninja,Shadow,,Uncommon,3,Melee,20,40,Backstab,Teleport;Stealth,,,,,,,,,,,,,,,,,,
-Crocodylus,Soul Gate,Ally,Reptile,Earth,,Common,3,Melee,30,40,Regen,,,,,,,,,,,,,,,,,,,
-Sobek General,Soul Gate,Ally,Reptile,Warrior,,Uncommon,4,Melee,40,50,Enrage,,,,,,,,,,,,,,,,,,,
-Zorg Cultist,Soul Gate,Ally,Alien,Neutral,,Common,4,Ranged,20,40,Q'verse,Shield,,,,,,,,,,,,,,,,,,
+Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Description,Traits
+Zombie Champion,Sneks,Ally,Zombie Reptile,Necro,,Epic,5,Melee,30,65,Raise Zombie,Double Tap;Rotting Aura,,"Body, Zombie; Hats, Angel Halo Green; Snake Type, 2 Headed"
+Agent of Rot,Sneks,Ally,Reptile Zombie,Necro,,Epic,3,Melee,20,45,Laser Beam,Venomous,,"Body, Zombie; Hats, Horns Green; Glasses, Laser Eyes"
+Zombie Snekinja,Sneks,Ally,Reptile Zombie Ninja,Necro,,Epic,1,Ranged,20,20,Ninjutsu;Laced Shuriken,,,"Body, Zombie; Hats, Ninja Hood"
+Tutankhensum,Sneks,Ally,Alien Reptile God,Psychic,,Rare,4,Melee,15,40,Exalted Deity,,,"Body, Alien; Hats, Pharaoh Red"
+Psychic Snekinja,Sneks,Ally,Alien Reptile Ninja,Psychic,,Epic,2,Ranged,25,30,Mental Haze;Psy Darts,Iaijutsu,,"Body, Alien; Hats, Ninja Hood"
+Agent of Psy,Sneks,Ally,Alien Reptile,Psychic,,Rare,3,Ranged,20,45,Laser Beam,,,"Body, Alien; Glasses, Laser Eyes"
+Oaken Snekurai,Sneks,Ally,Reptile Ninja,Earth,,Legendary,2,Melee,30,30,Kenjutsu Slash;Woodskin Ritual,Iaijutsu,,"Body, Green; Outfits, Katana"
+Garden Snek,Sneks,Ally,Reptile,Earth,,Common,1,Melee,10,20,,Bark Scales,,"Body, Green"
+Dark Snekix,Sneks,Ally,Reptile,Shadow,,Uncommon,2,Ranged,25,25,Death Breath,Stealth,,"Body, Black; Mouth, Fire Breath Pink; Skin, Light Orange; Eyes, Aqua"
+Nebulous Snek,Sneks,Ally,Reptile,Shadow,,Common,1,Melee,15,20,,Stealth,,"Body, Black"
+Psysnek,Sneks,Ally,Reptile,Psychic,,Uncommon,2,Melee,20,35,Horns of Valor,,,"Body, Purple; Hats, Horns Yellow"
+Zombie Snek,Sneks,Ally,Reptile Zombie,Necro,,Uncommon,1,Melee,20,20,,,,"Body, Zombie"
+Ramses XXXIII,DeGods,Ally,God,Necro,,Legendary,4,Ranged,25,55,Kingsguard,Flying;Boon of Apophis,,"Skin, Navi; Specialty, Devil Wings; Clothes, Bleached Tee; Head, Pharaohs Headdress; Mouth, Party Blower; Eyes, Clout Goggles"
+Zox Galactic Menace,GGSG,Ally,Reptile,Warrior,,Legendary,3,Melee,30,50,Target Lock;Gibbous Gamble,Rampage;Shield,,"Helmet, Gibbous Blaster; Eyes, Mixed Reality Grid; Armor, Electromagnetic Ring; Ears, Escape Rockets; Faction, Martu; Body, Lime"
+Sid,Cets,Ally,Cat,Earth,,Epic,3,Melee,25,40,Dream Garden,,,
+Rex,Claynosaurz,Ally,Reptile,Warrior,,Epic,6,Melee,30,70,Dino Smash,Skyscraper;Taunt,,"Species, Rex; Skin, Toxic; Color, Amethyst; Mood, Sleepy; Motion, Walk"
+Monty the White,SMB,Ally,Monkey,Water,,Legendary,5,Ranged,30,50,Bananatron,Elemental Attack,,"Species, Snow; Clothes, Conjuror's Robes; Hat, Conjuror's Hat; Eyes, Wink"
+Bananatron,SMB,Ally,Mecha,Water,,Legendary,2,Ranged,0,35,Ice Cannon,,,
+Bonk The Dog,Bonk,Ally,Dog,Warrior,,Epic,3,Melee,25,50,KNOB Blaster,,,
+Greenview,Pesky Penguins,Ally,Avian,Shadow,,Rare,3,Ranged,20,45,Shepard's Bane,Stealth;Arcane Shot,,"Type, Black; Head, Red Mohawk; Eyes, Aviators; Body, Black Suit"
+Caerus,Saga Monkes,Ally,Monkey,Warrior,,Rare,2,Melee,20,35,Laser Beam,Teleport,,
+Poku,Sensei Panda,Ally,Bear,Warrior,,Rare,4,Melee,30,60,Breath Aura,Iaijutsu,,"Skin, Teal; Body, Toriyama Gi; Hat, Bamboo Hat - Natural"
+Desert Noble,DKS,Ally,Undead,Air,,Epic,7,Ranged,40,80,Sandstorm;Pallasite,Flying,,"Name, Desert #3; Class, Sacred; Bloodline, Hallowed"
+Horus Falcon,Soul Gate,Ally,Avian,Air,,Uncommon,2,Melee,20,30,Sun Disk,Flying,,
+Deathstalker,Soul Gate,Ally,Bug,Earth,,Common,2,Ranged,20,30,,Venomous,,
+Serket Assassin,Soul Gate,Ally,Ninja,Shadow,,Uncommon,3,Melee,20,40,Backstab,Teleport;Stealth,,
+Crocodylus,Soul Gate,Ally,Reptile,Earth,,Common,3,Melee,30,40,,Regen,,
+Sobek General,Soul Gate,Ally,Reptile,Warrior,,Uncommon,4,Melee,40,50,Enrage,,,
+Zorg Cultist,Soul Gate,Ally,Alien,Neutral,,Common,4,Ranged,20,40,Q'verse,Shield,,
