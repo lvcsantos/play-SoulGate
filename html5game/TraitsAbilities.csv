@@ -1,58 +1,58 @@
 Name,Cost,Type,Text,Recoil,Collection,Traits,Animations
 Abduction,2,Active,Exile an enemy Ally for 1 turn. It becomes Confused.,2,,"Body, Alien",
-Backstab,1,Active,"If the next Attack target has a Condition, +20 damage. If this Character is Stealthed, +20 damage.",,,,confirm_sprite
-Bananatron,2,Active,Summon a Bananatron. ,6,Solana Monke Business,"Species, Snow",
+Arcane Shot,0,Passive,Buff Attack to ignore Stealth.,,,,
+Backstab,1,Active,"If the next Attack target has a Condition, +20 damage. If this Character is Stealthed, +20 damage.",2,,,confirm_sprite
+Bananatron,2,Active,Summon a Bananatron. ,6,SMB,"Species, Snow",confirm_sprite
 Bark Scales,0,Passive,Buff this Character's HP +20.,,Sneks,"Body, Green",
 Boon of Apophis,0,Passive,Buff Attack to hit adjacent enemies from the target for half damage (rounded down).,,DeGods,,
-Breath Aura,2,Active,Buff all Melee Allies +10 Attack and give them Shield. ,3,Sensei Pandas,,
-Death Breath,3,Active,Deal 20 damage to target enemy and 10 damage to 2 adjacent allies.,,,"Mouth, Fire Breath Pink",confirm_sprite
-Dino Smash,2,Active,Deal 15 damage to all Melee enemies.,,Claynosaurz,"Species, Rex",
+Breath Aura,2,Active,Buff all Melee Allies +10 Attack and give them Shield. ,6,Sensei Pandas,,
+Death Breath,3,Active,Deal 20 damage to target enemy and 10 damage to 2 adjacent allies.,2,,"Mouth, Fire Breath Pink",confirm_sprite
+Dino Smash,2,Active,Deal 15 damage to all Melee enemies.,2,Claynosaurz,"Species, Rex",
 Double Tap,0,Passive,Make 2 Actions per turn.,,Sneks,"Snake Type, 2 Headed",
-Dream Garden,1,Active,"Target any Character: if it's friendly, Restore & Heal 10. If it's an enemy, give it Paralyze 2 & Poison 2.",,Cets on Creck,Garden of Dreams,confirm_sprite
+Dream Garden,1,Active,"Target any Character: if it's friendly, Restore & Heal 10. If it's an enemy, Paralyze 2 & Poison 2.",2,Cets on Creck,Garden of Dreams,confirm_sprite
 Elemental Attack: Air,0,Passive,Buff Attack based on Elemental Class (Air: 25% chance to Paralyze or Confuse),,,,
 Elemental Attack: Earth,0,Passive,Buff Attack based on Elemental Class (Earth: 25% chance to Poison 1),,,,
 Elemental Attack: Fire,0,Passive,Buff Attack based on Elemental Class (Fire: 25% chance to Burn),,,,
 Elemental Attack: Water,0,Passive,Buff Attack based on Elemental Class (Water: 25% chance to Freeze),,SMB,"Species, Snow",
-Enrage,1,Active,This Character becomes Enraged (takes & deals +10 damage) for 2 turns.,3,,,
+Enrage,1,Active,This Character becomes Enraged (takes & deals +10 damage) for 2 turns.,4,,,
 Enraged,0,Passive,This Character takes & deals +10 damage.,,,,
-Exalted Deity,2,Active,This gets +10/+0 until end of turn for each friendly unit. ,1,,"Hats, Pharaoh Red",
+Exalted Deity,2,Active,This gets +10/+0 until end of turn for each friendly unit. ,2,,"Hats, Pharaoh Red",
 Flying,0,Passive,"This Character hovers in the air, avoiding melee attackers and evading melee blockers.",,Sneks,"Fans, Dragon Wings",
 Gibbous Gamble,2,Active,Flip a coin; if it's heads deal 30 damage to target enemy and self; if it's tails deal 60 damage.,,GGSG,"Helmet, Gibbous Blaster",confirm_sprite;middle_spot
-Grass Blades,0,Active,Buff Attack +10.,,,"Body, Green",
-Haunting Lick,0,Active,Give this Character 25% chance to Paralyze 1 on Attacks.,,,"Mouth, Tongue purple",
+Grass Blades,0,Passive,Buff Attack +10.,,Sneks,"Body, Green",
+Haunting Lick,0,Active,Give this Character 25% chance to Paralyze 1 on Attacks.,,Sneks,"Mouth, Tongue purple",
 Hexproof,0,Passive,This Character cannot be targeted by Spells or Abilities.,,,,
-Iaijutsu,0,Passive,Grants Iaijutsu passive (can attack immediately),,,"Outfits, Katana",
-Iaijutsu,0,Passive,Grants Iaijutsu passive (can attack immediately),,,"Body, Orange",
-Ice Cannon,0,Active,Bananatron attacks a random enemy each turn for 15 damage.,,Solana Monke Business,,
-Kenjutsu Slash,1,Active,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",,,"Outfits, Katana",confirm_sprite;middle_spot
-Kingsguard,3,Active,Summon up to 2 Zombie Sneks. Recoil 4.,,DeGods,,
+Iaijutsu,0,Passive,Grants Iaijutsu passive (can attack immediately),,Sneks,"Outfits, Katana; Body, Orange",
+Ice Cannon,0,Passive,Bananatron attacks a random enemy each turn for 15 damage.,,SMB,,confirm_sprite
+Kenjutsu Slash,1,Active,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",,Sneks,"Outfits, Katana",confirm_sprite;middle_spot
+Kingsguard,3,Active,Summon up to 2 Zombie Sneks.,4,DeGods,,
 KNOB Blaster,2,Active,Deal 20 damage to all enemies in this lane.,,Bonk,,
-Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. ,1,,"Hats, Ninja Hood",
-Laser Beam,2,Active,"Deal 15 damage to all enemies in this lane, ignores Shield. ",1,,"Glasses, Laser Eyes",confirm_sprite;middle_spot
-Life Cycle,2,Active,Deal 10 damage to an enemy and heal self 10 HP.,,,"Body, Zombie; Mouth, Fangs",confirm_sprite
-Meditate,2,Active,Draw 1 card.,1,,"Body, Alien",
-Mental Haze,2,Active,All enemies become Confused. ,2,,"Body, Alien",
-Mind Control,5,Active,Take control of an enemy ally. ,3,,"Body, Alien; Fans, Alien",
-Mind Read,2,Active,Scry 1 from either player's deck.,,,"Body, Alien; Hats, Pharaoh Blue",
-Ninjutsu,2,Active,"If this is in the grave, it can still be played. ",2,,"Body, Zombie; Hats, Ninja Hood",
-Pallasite,5,Active,Call down meteors to hit all enemies for 30 damage with 50% chances to Burn and Poison.,3,Dead King Society,,
-Psionic Blast,3,Active,Deal 10 damage to 2 enemy Allies and return them to their owner's hand.,1,,"Body, Alien",
-Psy Darts,2,Active,Throw 2 darts of 10 damage and 50% Asleep chance to any target(s).,1,,"Body, Alien; Hats, Ninja Hood",confirm_sprite
+Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. ,2,Sneks,"Hats, Ninja Hood",
+Laser Beam,2,Active,"Deal 15 damage to all enemies in this lane, ignores Shield. ",2,Sneks,"Glasses, Laser Eyes",confirm_sprite;middle_spot
+Life Cycle,2,Active,Deal 10 damage to an enemy and heal self 10 HP.,0,Sneks,"Body, Zombie; Mouth, Fangs",confirm_sprite
+Meditate,2,Active,Draw 1 card.,2,Sneks,"Body, Alien",
+Mental Haze,2,Active,All enemies become Confused. ,4,Sneks,"Body, Alien",
+Mind Control,5,Active,Take control of an enemy ally. ,6,Sneks,"Body, Alien; Fans, Alien",
+Mind Read,2,Active,Scry 1 from either player's deck.,,Sneks,"Body, Alien; Hats, Pharaoh Blue",
+Ninjutsu,2,Active,"If this is in the grave, it can still be played. ",2,Sneks,"Body, Zombie; Hats, Ninja Hood",
+Pallasite,5,Active,Call down meteors to hit all enemies for 30 damage with 50% chances to Burn and Poison.,4,Dead King Society,,
+Psionic Blast,3,Active,Deal 10 damage to 2 enemy Allies and return them to their owner's hand.,1,Sneks,"Body, Alien",
+Psy Darts,2,Active,Throw 2 darts of 10 damage and 50% Asleep chance to any target(s).,1,Sneks,"Body, Alien; Hats, Ninja Hood",confirm_sprite
 Q'verse,3,Active,Open the Soul Gate. Double chances for a mercenary.,,,,
-Raise Dead,5,Active,Return an ally from any grave to the battlefield under your control. ,2,,"Body, Zombie; Fans, Zombie",
-Raise Zombie,2,Active,"Exile an ally from any grave, then summon a 20/20 Zombie Snek.",,,"Body, Zombie",
+Raise Dead,5,Active,Return an ally from any grave to the battlefield under your control. ,2,Sneks,"Body, Zombie; Fans, Zombie",
+Raise Zombie,2,Active,"Exile an ally from any grave, then summon a 20/20 Zombie Snek.",,Sneks,"Body, Zombie",
 Rampage,0,Passive,Grants Rampage passive (deals excess damage to Hero),,,,
 Regen,0,Passive,Heal 20HP at the start of your turn.,,,,
 Resurrect,3,Active,Randomly revives a character from any graveyard,,,,
-Rotting Aura,0,Passive,Allied Zombies get +10/+10.,,,"Body, Zombie; Hats, Angel Halo Green",
+Rotting Aura,0,Passive,Allied Zombies get +10/+10.,,Sneks,"Body, Zombie; Hats, Angel Halo Green",
 Sandstorm,2,Active,"For 2 turns, a cyclone of sand gusts on all enemy areas. Debuff -10 Attack, Land all fliers, and deal 5 damage.",,,,
-Shepards Bane,,,,,,,
-Shield,0,Passive,Grants Shield passive (counters 1 instance of damage),,,"Fans, Angel Wings; Fans, Blue; Fans, Gold; Fans, Alien; Fans, Solana; Fans, Zombie; Fans, Rainbow",
+Shepards Bane,,Active,Deal 30 damage and Paralyze an enemy.Ignore Shield or Stealth.,,,,confirm_sprite;enemy_spot
+Shield,0,Passive,Grants Shield passive (counters 1 instance of damage),,Sneks,"Fans, Angel Wings; Fans, Blue; Fans, Gold; Fans, Alien; Fans, Solana; Fans, Zombie; Fans, Rainbow",
 Skyscraper,0,Passive,Grants Skyscraper passive (Similar to Taunt but for enemies with Flying),,Claynosaurz,,
 Snek Gaze,2,Active,Paralyze 1 target enemy. Recoil 1.,,,,
-Stealth,0,Passive,"Grants Stealth passive (hidden until Action, +10 Attack)",,,"Body, Black",
+Stealth,0,Passive,"Grants Stealth passive (hidden until Action, +10 Attack)",,Sneks,"Body, Black",
 Sun Disk,2,Active,Deal 30 damage to an enemy. 50% chance to get Burned 4.,,,,confirm_sprite;middle_spot
-Target Lock,1,Active,Reveal a random card from opponent's hand. The next attack or ability by Zox deals +20 damage.,,,"Eyes, Mixed Reality Grid",
+Target Lock,1,Active,Reveal a random card from opponent's hand. The next attack or ability by Zox deals +20 damage.,,GGSG,"Eyes, Mixed Reality Grid",
 Taunt,0,Passive,"Grants Taunt passive, only for Melee (Block all incoming enemy Attacks)",,,,
 Telekinesis,1,Active,Send 1 enemy Ally to the top of their deck. ,3,,"Body, Alien",
 Teleport,0,Passive,"This Character's Attack can target any enemy, ignoring Block or Flying.",,Saga Monkes,,
