@@ -23,11 +23,11 @@ Grass Blades,0,Passive,Buff Attack +10.,,Sneks,"Body, Green",
 Haunting Lick,0,Active,Give this Character 25% chance to Paralyze 1 on Attacks.,,Sneks,"Mouth, Tongue purple",
 Hexproof,0,Passive,This Character cannot be targeted by Spells or Abilities.,,,,
 Iaijutsu,0,Passive,Grants Iaijutsu passive (can attack immediately),,Sneks,"Outfits, Katana; Body, Orange",
-Ice Cannon,0,Passive,Bananatron attacks a random enemy each turn for 15 damage.,,SMB,,confirm_sprite
+Ice Cannon,0,Active,Bananatron attacks a random enemy each turn for 15 damage.,,SMB,,confirm_sprite
 Kenjutsu Slash,1,Active,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",,Sneks,"Outfits, Katana",confirm_sprite;middle_spot
 Kingsguard,3,Active,Summon up to 2 Zombie Sneks.,4,DeGods,,
 KNOB Blaster,2,Active,Deal 20 damage to all enemies in this lane.,,Bonk,,
-Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. ,2,Sneks,"Hats, Ninja Hood",
+Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. ,2,Sneks,"Hats, Ninja Hood",confirm_sprite;projectile_straight
 Laser Beam,2,Active,"Deal 15 damage to all enemies in this lane, ignores Shield. ",2,Sneks,"Glasses, Laser Eyes",confirm_sprite;middle_spot
 Life Cycle,2,Active,Deal 10 damage to an enemy and heal self 10 HP.,0,Sneks,"Body, Zombie; Mouth, Fangs",confirm_sprite
 Meditate,2,Active,Draw 1 card.,2,Sneks,"Body, Alien",
@@ -37,7 +37,7 @@ Mind Read,2,Active,Scry 1 from either player's deck.,,Sneks,"Body, Alien; Hats, 
 Ninjutsu,2,Active,"If this is in the grave, it can still be played. ",2,Sneks,"Body, Zombie; Hats, Ninja Hood",
 Pallasite,5,Active,Call down meteors to hit all enemies for 30 damage with 50% chances to Burn and Poison.,4,Dead King Society,,
 Psionic Blast,3,Active,Deal 10 damage to 2 enemy Allies and return them to their owner's hand.,1,Sneks,"Body, Alien",
-Psy Darts,2,Active,Throw 2 darts of 10 damage and 50% Asleep chance to any target(s).,1,Sneks,"Body, Alien; Hats, Ninja Hood",confirm_sprite
+Psy Darts,2,Active,Throw 2 darts of 10 damage and 50% Asleep chance to any target(s).,1,Sneks,"Body, Alien; Hats, Ninja Hood",confirm_sprite;projectile_straight
 Q'verse,3,Active,Open the Soul Gate. Double chances for a mercenary.,,,,
 Raise Dead,5,Active,Return an ally from any grave to the battlefield under your control. ,2,Sneks,"Body, Zombie; Fans, Zombie",
 Raise Zombie,2,Active,"Exile an ally from any grave, then summon a 20/20 Zombie Snek.",,Sneks,"Body, Zombie",
