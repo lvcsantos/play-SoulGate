@@ -7,7 +7,7 @@ Bark Scales,0,Passive,Buff this Character's HP +20.,,Sneks,"Body, Green",
 Boon of Apophis,0,Passive,Buff Attack to hit adjacent enemies from the target for half damage (rounded down).,,DeGods,,
 Breath Aura,2,Active,Buff all other Melee Allies +10 Attack until end of turn and give them Shield. ,6,Sensei Pandas,,
 Death Breath,3,Active,Deal 20 damage to target enemy and 10 damage to 2 adjacent allies.,2,,"Mouth, Fire Breath Pink",confirm_sprite
-Dino Smash,2,Active,Deal 15 damage to all Melee enemies.,2,Claynosaurz,"Species, Rex",
+Dino Smash,2,Active,Deal 15 damage to all Melee enemies.,2,Claynosaurz,"Species, Rex",confirm_sprite
 Double Tap,0,Passive,Make 2 Actions per turn.,,Sneks,"Snake Type, 2 Headed",
 Dream Garden,1,Active,"Target any Character: if it's friendly, Restore & Heal 10. If it's an enemy, Paralyze 2 & Poison 2.",2,Cets on Creck,Garden of Dreams,confirm_sprite
 Elemental Attack,0,Passive,Buff Attack based on Elemental Class,,,,
