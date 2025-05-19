@@ -1,9 +1,9 @@
-Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Target_Type,Or,Effect_Card,Effect_Player,Recoil,Description,Collectable
-Ankh Waset,Soul Gate,Item,Equipment,Neutral,,Rare,3,,,,portal_active,2,Activates the  Soul Gate.,
-Foul Tonic,Soul Gate,Item,Consumable,Neutral,,Uncommon,2,sfu_1<->seu_1,,condition_venomed_10|buff_dmg_20<->condition_venomed_10,,,"Target gets Envenomed 10. If it's an Ally, it also gets Buffed +20.",
-Smoke Bomb,Soul Gate,Item,Consumable,Neutral,,Common,1,afa,,passive_stealth,,,All Allies get Stealth.,
-Health Potion,Soul Gate,Item,Consumable,Neutral,,Common,1,sfu_2,,restored|heal_40,,,Two Allies get Restored and Healed 40.,
-Mana Surge,Soul Gate,Item,Consumable,Neutral,,Common,1,,,,mana_3,,Generate 3 mana.,
-Eye of Horus,Soul Gate,Item,Equipment,Neutral,,Uncommon,2,sfa_1,,passive_hexproof,,,Equipped unit cannot be targeted by spells or abilities.,
-Monke Juice,Saga Monkes,Item,Consumable,Neutral,,Uncommon,2,su_1,Subtype_Monkey,buff_dmg_30<->dmg_20|buff_dmg_20,,,"Deal 20 damage to a Character and give it +20 Attack. If it's a Monkey, only give it +30 Attack instead.",
-Papyrus of Imhotep,Soul Gate,Spell,Consumable,Neutral,,Rare,2,,,,,,Copy a random Item or Spell from your deck and play it.,FALSE
+Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Commands,Description,Collectable,Animations
+Ankh Waset,Soul Gate,Item,Equipment,Neutral,,Rare,3,NONE=>portal_active,Activates the  Soul Gate.,,
+Foul Tonic,Soul Gate,Item,Consumable,Neutral,,Common,2,SU_1->affiliation_friendly=>condition_venomed_10|buff_-1_dmg_20->affiliation_enemy=>condition_venomed_10,"Target gets Envenomed 10. If it's an Ally, it also gets Buffed +20.",,confirm_sprite;spot_enemy_0
+Smoke Bomb,Soul Gate,Item,Consumable,Neutral,,Common,1,AFA=>passive_stealth,All Allies get Stealth.,,
+Health Potion,Soul Gate,Item,Consumable,Neutral,,Common,1,SFU_2=>restored|heal_40,Two Allies get Restored and Healed 40.,,confirm_sprite;spot_enemy_0
+Mana Surge,Soul Gate,Item,Consumable,Neutral,,Common,1,NONE=>mana_3,Generate 3 mana.,,
+Eye of Horus,Soul Gate,Item,Equipment,Neutral,,Common,2,SFA_1=>passive_hexproof,Gain Hexproof (cannot be targeted by spells or abilities).,,
+Monke Juice,Saga Monkes,Item,Consumable,Neutral,,Rare,2,SU_1->species_monkey=>buff_-1_dmg_30::buff_-1_dmg_20|dmg_20,"Deal 20 damage to a Character and give it +20 Attack. If it's a Monkey, only give it +30 Attack instead.",,confirm_sprite;blackline
+Papyrus of Imhotep,Soul Gate,Spell,Consumable,Neutral,,Rare,2,,Copy a random Item or Spell from your deck and play it.,FALSE,
