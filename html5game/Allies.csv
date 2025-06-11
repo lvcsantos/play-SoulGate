@@ -1,30 +1,43 @@
-Name,IP,Type,Species,Origin,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Commands,Traits,Collectable
-Zombie Champion,Sneks,Ally,Zombie,Arcane,,Epic,5,Melee,30,65,Raise Zombie,Double Tap;Persistent,Persistent:SELF=>buffallies_dmg_10_hp_10>>species_zombie,"Body, Zombie; Hats, Angel Halo Green; Snake Type, 2 Headed",
-Agent of Rot,Sneks,Ally,Zombie,Arcane,,Epic,3,Melee,20,45,Laser Beam,Contact,Contact:SEU_1=>condition_poisoned_2,"Body, Zombie; Hats, Horns Green; Glasses, Laser Eyes",
-Zombie Snekinja,Sneks,Ally,Zombie,Arcane,,Epic,1,Ranged,20,20,Laced Shuriken,Last Wish,Last Wish:SELF=>summon_1_zombie_snekinja>>remove_passive_last_wish,"Body, Zombie; Hats, Ninja Hood",
-Tutankhensum,Sneks,Ally,Alien,Arcane,,Rare,4,Melee,15,40,Exalted Deity,,,"Body, Alien; Hats, Pharaoh Red",
-Psychic Snekinja,Sneks,Ally,Alien,Arcane,,Epic,2,Ranged,25,30,Mental Haze;Psy Darts,Iaijutsu,,"Body, Alien; Hats, Ninja Hood",
-Agent of Psy,Sneks,Ally,Alien,Arcane,,Rare,3,Ranged,20,45,Laser Beam,,,"Body, Alien; Glasses, Laser Eyes",
-Oaken Snekurai,Sneks,Ally,Reptile,Order,,Legendary,2,Melee,30,30,Kenjutsu Slash;Woodskin Ritual,Iaijutsu,,"Body, Green; Outfits, Katana",
-Garden Snek,Sneks,Ally,Reptile,Wild,,Common,1,Melee,10,20,,Arrival,Arrival:SELF=>buff_-1_hp_20,"Body, Green",
-Dark Snekix,Sneks,Ally,Reptile,Arcane,,Common,2,Ranged,25,25,Death Breath,Stealth,,"Body, Black; Mouth, Fire Breath Pink; Skin, Light Orange; Eyes, Aqua",
-Nebulous Snek,Sneks,Ally,Reptile,Arcane,,Common,1,Melee,15,20,,Stealth,,"Body, Black",
-Psysnek,Sneks,Ally,Reptile,Arcane,,Uncommon,2,Melee,20,35,Horns of Valor,,,"Body, Purple; Hats, Horns Yellow",FALSE
-Zombie Snek,Sneks,Ally,Zombie,Arcane,,Uncommon,1,Melee,20,20,,,,"Body, Zombie",
-Ramses XXXIII,DeGods,Ally,God,Arcane,,Legendary,4,Ranged,25,55,Kingsguard,Flying;Boon of Apophis,,"Skin, Navi; Specialty, Devil Wings; Clothes, Bleached Tee; Head, Pharaohs Headdress; Mouth, Party Blower; Eyes, Clout Goggles",
-Zox Galactic Menace,GGSG,Ally,Reptile,Order,,Legendary,3,Melee,30,50,Target Lock;Gibbous Gamble,Rampage;Shield,,"Helmet, Gibbous Blaster; Eyes, Mixed Reality Grid; Armor, Electromagnetic Ring; Ears, Escape Rockets; Faction, Martu; Body, Lime",
-Sid,Cets,Ally,Cat,Wild,,Epic,3,Melee,25,40,Dream Garden,,,,
-Rex,Claynosaurz,Ally,Reptile,Order,,Epic,6,Melee,30,70,Dino Smash,Skyscraper;Taunt,,"Species, Rex; Skin, Toxic; Color, Amethyst; Mood, Sleepy; Motion, Walk",
-Monty the White,SMB,Ally,Monkey,Wild,,Legendary,5,Ranged,30,50,Bananatron,Elemental Attack,,"Species, Snow; Clothes, Conjuror's Robes; Hat, Conjuror's Hat; Eyes, Wink",
-Bananatron,SMB,Ally,Mecha,Fighter,,Legendary,2,Melee,10,35,,Cycle,Cycle:SEU_1*=>dmg_15->coin_1=>condition_freezed_1,,FALSE
-Bonkimus Prime,Bonk,Ally,Dog,Fighter,,Epic,3,Melee,25,50,KNOB Blaster,,,,
-Greenview,Pesky Penguins,Ally,Bird,Magic,,Rare,3,Ranged,20,45,Shepards Bane,Stealth;Contact,Contact:SEU_1=>ignore_shield,"Type, Black; Head, Red Mohawk; Eyes, Aviators; Body, Black Suit",
-Caerus,Saga Monkes,Ally,Monkey,Fighter,,Rare,2,Melee,20,35,Laser Beam,Teleport,,,
-Poku,Sensei Panda,Ally,Bear,Order,,Rare,4,Melee,30,60,Breath Aura,Iaijutsu,,"Skin, Teal; Body, Toriyama Gi; Hat, Bamboo Hat - Natural",
-Desert Noble,DKS,Ally,Zombie,Arcane,,Epic,7,Ranged,40,80,Sandstorm;Pallasite,Flying,,"Name, Desert #3; Class, Sacred; Bloodline, Hallowed",FALSE
-Horus Falcon,Soul Gate,Ally,Bird,Order,,Uncommon,2,Melee,20,30,Sun Disk,Flying,,,
-Deathstalker,Soul Gate,Ally,Bug,Wild,,Common,2,Ranged,20,30,,Contact,Contact:SEU_1=>condition_poisoned_2,,
-Serket Assassin,Soul Gate,Ally,Ninja,Arcane,,Rare,3,Melee,20,40,,Teleport;Stealth,,,
-Crocodylus,Soul Gate,Ally,Reptile,Wild,,Common,3,Melee,30,40,,Cycle,Cycle:SELF=>heal_20,,
-Sobek General,Soul Gate,Ally,Reptile,Wild,,Common,4,Melee,40,50,Enrage,,,,
-Zorg Cultist,Soul Gate,Ally,Alien,Arcane,,Common,4,Ranged,20,40,Q'verse,Shield,,,
+Name,IP,Type,Species,Origin,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Commands,Traits,Collectable,Description
+Zombie Champion,Sneks,Ally,Snek Zombie,Arcane,,Epic,5,Melee,30,65,Raise Zombie,Double Tap;Persistent,Persistent:SELF=>buffallies_dmg_10_hp_10>>species_zombie,"Body, Zombie; Hats, Angel Halo Green; Snake Type, 2 Headed",,Persistent: Buff all Zombie Allies +10 HP and +10 Attack.
+Agent of Rot,Sneks,Ally,Snek Zombie,Arcane,,Epic,3,Melee,20,45,Laser Beam,Contact,Contact:SEU_1=>condition_poisoned_2,"Body, Zombie; Hats, Horns Green; Glasses, Laser Eyes",,"Contact: When this attacks or defends, the enemy Ally gets Poison 1."
+Zombie Snekinja,Sneks,Ally,Snek Zombie,Arcane,,Epic,1,Ranged,20,20,Laced Shuriken,Last Wish,Last Wish:HERO_FRIENDLY=>summon_1_zombie_snekinja>>remove_passive_last_wish,"Body, Zombie; Hats, Ninja Hood",,"Last Wish: When this dies, revive it and remove this passive ability."
+Tutankhensum,Sneks,Ally,Alien Snek,Arcane,,Rare,4,Melee,15,40,Exalted Deity,,,"Body, Alien; Hats, Pharaoh Red",,
+Psychic Snekinja,Sneks,Ally,Alien Snek,Arcane,,Epic,2,Ranged,25,30,Mental Haze;Psy Darts,Iaijutsu,,"Body, Alien; Hats, Ninja Hood",,
+Agent of Psy,Sneks,Ally,Alien Snek,Arcane,,Rare,3,Ranged,20,45,Laser Beam,,,"Body, Alien; Glasses, Laser Eyes",,
+Oaken Snekurai,Sneks,Ally,Ninja Snek,Order,,Legendary,2,Melee,30,30,Kenjutsu Slash;Woodskin Ritual,Iaijutsu,,"Body, Green; Outfits, Katana",,
+Garden Snek,Sneks,Ally,Snek,Wild,,Common,1,Melee,10,20,,Arrival,Arrival:SELF=>buff_-1_hp_20,"Body, Green",,"Arrival: When this enters, Buff it +20 HP."
+Dark Snekix,Sneks,Ally,Snek,Arcane,,Common,2,Ranged,25,25,Death Breath,Stealth,,"Body, Black; Mouth, Fire Breath Pink; Skin, Light Orange; Eyes, Aqua",,
+Nebulous Snek,Sneks,Ally,Snek,Arcane,,Common,1,Melee,15,20,,Stealth,,"Body, Black",,
+Psysnek,Sneks,Ally,Snek,Arcane,,Uncommon,2,Melee,20,35,Horns of Valor,,,"Body, Purple; Hats, Horns Yellow",FALSE,
+Zombie Snek,Sneks,Ally,Snek Zombie,Arcane,,Uncommon,1,Melee,20,20,,,,"Body, Zombie",,
+Ramses XXXIII,DeGods,Ally,God Zombie,Arcane,,Legendary,4,Ranged,25,55,Kingsguard,Flying;Boon of Apophis,,"Skin, Navi; Specialty, Devil Wings; Clothes, Bleached Tee; Head, Pharaohs Headdress; Mouth, Party Blower; Eyes, Clout Goggles",,
+Zox Galactic Menace,GGSG,Ally,Gecko,Order,,Legendary,3,Melee,30,50,Target Lock;Gibbous Gamble,Rampage;Shield,,"Helmet, Gibbous Blaster; Eyes, Mixed Reality Grid; Armor, Electromagnetic Ring; Ears, Escape Rockets; Faction, Martu; Body, Lime",,
+Sid,Cets,Ally,Cat,Wild,,Epic,3,Melee,25,40,Dream Garden,,,,,
+Rex,Claynosaurz,Ally,Dinosaur,Order,,Epic,6,Melee,30,70,Dino Smash,Skyscraper;Taunt,,"Species, Rex; Skin, Toxic; Color, Amethyst; Mood, Sleepy; Motion, Walk; Class, Warrior",,
+Monty the White,SMB,Ally,Monke,Wild,,Legendary,5,Ranged,30,50,Bananatron,Elemental Attack,,"Species, Snow; Clothes, Conjuror's Robes; Hat, Conjuror's Hat; Eyes, Wink",,
+Bananatron,SMB,Ally,Banana Mecha,Order,,Legendary,2,Melee,10,35,,Cycle;Sentinel,Cycle:SEU_1*=>dmg_15->coin_1=>condition_freezed_2,,FALSE,"Cycle: At the end of your turn, a random enemy takes 15 damage and 50% chance to Freeze 1. "
+The Dog,Bonk,Ally,Dog God,Wild,,Epic,3,Melee,25,50,BONK Blaster,,,,,
+Greenview,Pesky Penguins,Ally,Bird Spirit,Arcane,,Epic,3,Ranged,20,45,Shepards Bane,Stealth;Contact,Contact:SEU_1=>ignore_shield,"Type, Black; Head, Red Mohawk; Eyes, Aviators; Body, Black Suit",,"Contact: When this attacks or defends, if the enemy has Shield, ignore it."
+Caerus,Saga Monkes,Ally,Monke,Wild,,Rare,2,Melee,20,35,Laser Beam,Teleport,,,,
+Poku,Sensei Panda,Ally,Bear,Order,,Rare,4,Melee,30,60,Breath Aura,Iaijutsu,,"Skin, Teal; Body, Toriyama Gi; Hat, Bamboo Hat - Natural",,
+Desert Noble,DKS,Ally,Zombie,Arcane,,Epic,7,Ranged,40,80,Sandstorm;Pallasite,Flying,,"Name, Desert #3; Class, Sacred; Bloodline, Hallowed",FALSE,
+Horus Falcon,Soul Gate,Ally,Bird,Order,,Uncommon,2,Melee,20,30,Sun Disk,Flying,,,,
+Deathstalker,Soul Gate,Ally,Bug,Wild,,Common,2,Ranged,20,30,,Contact,Contact:SEU_1=>condition_poisoned_2,,,"Contact: When this attacks or defends, the enemy Ally gets Poison 1."
+Serket Assassin,Soul Gate,Ally,Bug Ninja,Arcane,,Rare,3,Melee,20,40,,Teleport;Stealth,,,,
+Crocodylus,Soul Gate,Ally,Reptile,Wild,,Common,3,Melee,30,40,,Cycle,Cycle:SELF=>heal_20,,,"Cycle: At the end of your turn, Heal 20 HP."
+Sobek General,Soul Gate,Ally,Reptile,Order,,Common,4,Melee,40,50,Enrage,,,,,
+Zorg Cultist,Soul Gate,Ally,Alien,Arcane,,Common,4,Ranged,20,40,Q'verse,Shield,,,,
+Fire Whelp,Sneks,Ally,Snek,Wild,,Common,1,Melee,20,10,,Arrival,Arrival:SELF=>buff_-1_dmg_10,"Body, Orange; Hats, Red Horns",,"Arrival: When this enters, Buff it +10 Attack."
+Magmut,Sneks,Ally,Snek,Wild,,Rare,3,Melee,30,30,,Arrival,Arrival:AEA=>condition_burned_1,"Body, Orange; Fans, Orange",,"Arrival: When this enters, all enemy Allies become Burned."
+Charsnek,Sneks,Ally,Snek,Wild,,Common,1,Melee,30,15,,Iaijutsu;Contact,Contact:SEU_1->coin_1=>condition_1_burned,"Body, Orange; Hats, Red Horns",,"Contact: When this attacks or defends, 50% chance the enemy gets Burned."
+Charcobra,Sneks,Ally,Snek,Wild,,Common,2,Ranged,30,20,,Arrival,Arrival:SELF=>buff_-1_dmg_20,"Body, Orange; Fans, Orange",,Arrival:
+Chardrake,Sneks,Ally,Snek,Wild,,Common,2,Melee,20,25,,Flying,,,,
+Drakaris,Sneks,Ally,Snek,Wild,,Rare,4,Ranged,20,40,Fire Breath,Flying;Contact,Contact:SEU_1->coin_1=>condition_paralyzed_1,"Body, Orange; Mouth, Fire Breath Standard",,Contact:
+Galvanite,Sneks,Ally,God Snek,Wild,,Legendary,6,Ranged,25,70,Wild Breath,Shield; Flying;Arrival;Contact,Contact:SEU_1->coin_1=>condition_paralyzed_1|condition_burned_1,"Body, Rainbow; Mouth, Fire Breath Aqua; Dragon Wings Red",,Arrival:;Contact:
+Hell's Angel,Sneks,Ally,Snek,Order,,Rare,3,Melee,30,30,,Taunt;Persistent,Persistent:buffallies_dmg_10_hp_10,"Body, Orange; Hats, Red Horns",,Persistent:
+Hell's Plebe,Sneks,Ally,Snek,Order,,Common,1,Melee,20,20,,Iaijutsu,,"Body, Orange; Hats, Red Horns",,
+0xSurfer,Sneks,Ally,Snek,Order,,Epic,5,Ranged,20,50,E.M.P.,Hexproof;Double Tap,,"Body, Solana; Snake Type, 2 Headed",,
+Tassia,Binaria,Ally,God,Order,,Legendary,8,Melee,50,80,Snek Bite,Flying;Arrival,Arrival:SELF=>buff_-1_hp_50,,,Arrival:
+Soldier Meow,Jupiter,Ally,Cat,Order,,Epic,4,Ranged,35,50,,Cycle;Contact,Cycle:SELF=>heal_20;Contact:SEU_1=>ignore_shield,,,Cycle:;Contact:
+,,,,,,,,,,,,,,,FALSE,
