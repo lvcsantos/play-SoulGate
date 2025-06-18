@@ -28,16 +28,3 @@ Serket Assassin,Soul Gate,Ally,Bug Ninja,Arcane,,Rare,3,Melee,20,40,,Teleport;St
 Crocodylus,Soul Gate,Ally,Reptile,Wild,,Common,3,Melee,30,40,,Cycle,Cycle:SELF=>heal_20,,,"Cycle: At the end of your turn, Heal 20 HP."
 Sobek General,Soul Gate,Ally,Reptile,Order,,Common,4,Melee,40,50,Enrage,,,,,
 Zorg Cultist,Soul Gate,Ally,Alien,Arcane,,Common,4,Ranged,20,40,Q'verse,Shield,,,,
-Fire Whelp,Sneks,Ally,Snek,Wild,,Common,1,Melee,20,10,,Arrival,Arrival:SELF=>buff_-1_dmg_10,"Body, Orange; Hats, Red Horns",,"Arrival: When this enters, Buff it +10 Attack."
-Magmut,Sneks,Ally,Snek,Wild,,Rare,3,Melee,30,30,,Arrival,Arrival:AEA=>condition_burned_1,"Body, Orange; Fans, Orange",,"Arrival: When this enters, all enemy Allies become Burned."
-Charsnek,Sneks,Ally,Snek,Wild,,Common,1,Melee,30,15,,Iaijutsu;Contact,Contact:SEU_1->coin_1=>condition_1_burned,"Body, Orange; Hats, Red Horns",,"Contact: When this attacks or defends, 50% chance the enemy gets Burned."
-Charcobra,Sneks,Ally,Snek,Wild,,Common,2,Ranged,30,20,,Arrival,Arrival:SELF=>buff_-1_dmg_20,"Body, Orange; Fans, Orange",,Arrival:
-Chardrake,Sneks,Ally,Snek,Wild,,Common,2,Melee,20,25,,Flying,,,,
-Drakaris,Sneks,Ally,Snek,Wild,,Rare,4,Ranged,20,40,Fire Breath,Flying;Contact,Contact:SEU_1->coin_1=>condition_paralyzed_1,"Body, Orange; Mouth, Fire Breath Standard",,Contact:
-Galvanite,Sneks,Ally,God Snek,Wild,,Legendary,6,Ranged,25,70,Wild Breath,Shield; Flying;Arrival;Contact,Contact:SEU_1->coin_1=>condition_paralyzed_1|condition_burned_1,"Body, Rainbow; Mouth, Fire Breath Aqua; Dragon Wings Red",,Arrival:;Contact:
-Hell's Angel,Sneks,Ally,Snek,Order,,Rare,3,Melee,30,30,,Taunt;Persistent,Persistent:buffallies_dmg_10_hp_10,"Body, Orange; Hats, Red Horns",,Persistent:
-Hell's Plebe,Sneks,Ally,Snek,Order,,Common,1,Melee,20,20,,Iaijutsu,,"Body, Orange; Hats, Red Horns",,
-0xSurfer,Sneks,Ally,Snek,Order,,Epic,5,Ranged,20,50,E.M.P.,Hexproof;Double Tap,,"Body, Solana; Snake Type, 2 Headed",,
-Tassia,Binaria,Ally,God,Order,,Legendary,8,Melee,50,80,Snek Bite,Flying;Arrival,Arrival:SELF=>buff_-1_hp_50,,,Arrival:
-Soldier Meow,Jupiter,Ally,Cat,Order,,Epic,4,Ranged,35,50,,Cycle;Contact,Cycle:SELF=>heal_20;Contact:SEU_1=>ignore_shield,,,Cycle:;Contact:
-,,,,,,,,,,,,,,,FALSE,
