@@ -1,6 +1,6 @@
 Name,Cost,Type,Text,Recoil,Action,Collection,Traits,Animations,Commands
 Arrival,0,Passive,Triggers an effect when Ally is played from Hand.,,1,,,,
-Bananatron,2,Active,Summon a Bananatron. ,6,1,SMB,"Species, Snow",frame_16;confirm_sprite,SELF=>summon_1_bananatron
+Bananatron,2,Active,Summon a Bananatron. ,6,1,SMB,"Species, Snow",frame_16;confirm_sprite,SELF=>summon_1_bananatron>>front
 Basic Attack,0,,,0,1,,,confirm_sprite;middle_spot,
 Boon of Apophis,0,Passive,Buff Attack to hit adjacent enemies from the target for half damage (rounded down).,,1,DeGods,,,
 Breath Aura,2,Active,Buff all other Melee Allies +10 Attack until end of turn and give them Shield. ,6,1,Sensei Pandas,,,AFA->zone_melee=>buff_1_dmg_10|passive_shield
@@ -12,8 +12,8 @@ Double Tap,0,Passive,Make 2 Actions per turn.,,1,Sneks,"Snake Type, 2 Headed",,
 Dream Garden,1,Active,"Target any Character: if it's friendly, Restore & Heal 10. If it's an enemy, Paralyze 2 & Poison 2.",2,1,Cets on Creck,Garden of Dreams,frame_25;confirm_sprite,SU_1->affiliation_friendly=>restored|heal_10->affiliation_enemy=>condition_paralyzed_2|condition_poisoned_2
 Elemental Attack,0,Passive,Buff Attack based on Elemental Class,,1,,,,
 E.M.P.,3,Active,Deal 50 damage and Paralyze all enemy Mechas.,2,1,,,,
-Enrage,1,Active,This Character becomes receive +10 damage and weakned for 2 turns.,4,1,,,,SELF=>buff_4_dmg_10|condition_weakned_4
-Enraged,0,Passive,This Character takes & deals +10 damage.,,1,,,,
+Enrage,1,Active,This Character receive +10 damage and weakned for 2 turns.,4,1,,,,SELF=>buff_4_dmg_10|condition_weakned_4
+Enraged,0,Passive,This Character deals +10 damage.,,1,,,,
 Exalted Deity,2,Active,This gets +10 Attack until end of turn for each friendly Ally. ,2,0,,"Hats, Pharaoh Red",,SELF=>buff_1_dmg_count>>10>>AFA
 Fire Breath,2,Active,Deal 10 area damage (cross) to target enemies.,1,1,,"Mouth, Fire Breath Standard",confirm_sprite,SEU_1=>dmg_10//CROSS=>dmg_10
 Flying,0,Passive,Cannot be targeted by Melee attackers. Ignore Melee Allies with Taunt.,,1,Sneks,"Fans, Dragon Wings",,
@@ -43,6 +43,7 @@ Raise Zombie,2,Active,"Exile an ally from any grave, then summon a 20/20 Zombie 
 Rampage,0,Passive,Deals excess damage to enemy Hero.,,1,,,,
 Resurrect,3,Active,Randomly revives an Ally from any Grave.,0,1,,,,SELF=>ressurect_friendly_1
 Sandstorm,2,Active,"For 2 turns, a cyclone of sand gusts on all enemy areas. Debuff -10 Attack, Land all fliers, and deal 5 damage.",0,1,,,,
+Sentinel,,Passive,Can't basic attack,,,,,,
 Snek Bite,0,Active,Deal 20 damage and Poison 1.,0,1,,,,SEU_1=>dmg_20|condition_poisoned_1
 Shepards Bane,2,Active,Deal 30 damage and Paralyze an enemy. ,0,1,,,spot_enemy_16;frame_63;spot_original_87;confirm_sprite,SEU_1=>dmg_30|condition_paralyzed_1
 Shield,0,Passive,Grants Shield passive (counters 1 instance of damage),,1,Sneks,"Fans, Angel Wings; Fans, Blue; Fans, Gold; Fans, Alien; Fans, Solana; Fans, Zombie; Fans, Rainbow",,
