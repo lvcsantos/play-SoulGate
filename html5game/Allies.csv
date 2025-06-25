@@ -5,7 +5,7 @@ Zombie Snekinja,Sneks,Ally,Snek Zombie,Arcane,,Epic,1,Ranged,20,20,Laced Shurike
 Tutankhensum,Sneks,Ally,Alien Snek,Arcane,,Rare,4,Melee,15,40,Exalted Deity,,,,"Body, Alien; Hats, Pharaoh Red",,
 Psychic Snekinja,Sneks,Ally,Alien Snek,Arcane,,Epic,2,Ranged,20,30,Mental Haze;Psy Darts,Iaijutsu,,,"Body, Alien; Hats, Ninja Hood",,
 Agent of Psy,Sneks,Ally,Alien Snek,Arcane,,Rare,3,Ranged,20,45,Laser Beam,,,,"Body, Alien; Glasses, Laser Eyes",,
-Oaken Snekurai,Sneks,Ally,Ninja Snek,Order,,Legendary,2,Melee,30,30,Kenjutsu Slash;Woodskin Ritual,Iaijutsu,,,"Body, Green; Outfits, Katana",,
+Oaken Snekurai,Sneks,Ally,Ninja Snek,Order,,Legendary,2,Melee,30,30,Kenjutsu Slash;Woodskin Ritual,Iaijutsu,,basicattack_38,"Body, Green; Outfits, Katana",,
 Garden Snek,Sneks,Ally,Snek,Wild,,Common,1,Melee,10,20,,Arrival,Arrival:SELF=>buff_-1_hp_20,,"Body, Green",,"Arrival: When this enters, Buff it +20 HP."
 Dark Snekix,Sneks,Ally,Snek,Arcane,,Common,2,Ranged,25,25,Death Breath,Stealth,,,"Body, Black; Mouth, Fire Breath Pink; Skin, Light Orange; Eyes, Aqua",,
 Nebulous Snek,Sneks,Ally,Snek,Arcane,,Common,1,Melee,15,20,,Stealth,,,"Body, Black",,
@@ -16,7 +16,7 @@ Zox Galactic Menace,GGSG,Ally,Gecko,Order,,Legendary,3,Melee,30,50,Target Lock;G
 Sid,Cets,Ally,Cat,Wild,,Epic,3,Melee,25,40,Dream Garden,,,basicattack_4,,,
 Rex,Claynosaurz,Ally,Dinosaur,Order,,Epic,6,Melee,30,70,Dino Smash,Skyscraper;Taunt,,basicattack_16,"Species, Rex; Skin, Toxic; Color, Amethyst; Mood, Sleepy; Motion, Walk; Class, Warrior",,
 Monty the White,SMB,Ally,Monke,Wild,,Legendary,5,Ranged,30,50,Bananatron,Elemental Attack,,basicattack_25,"Species, Snow; Clothes, Conjuror's Robes; Hat, Conjuror's Hat; Eyes, Wink",,
-Bananatron,SMB,Ally,Banana Mecha,Order,,Legendary,2,Melee,10,35,,Cycle;Sentinel,Cycle:SEU_1*=>dmg_15->coin_1=>condition_freezed_2,,,FALSE,"Cycle: At the end of your turn, a random enemy takes 15 damage and 50% chance to Freeze 1. "
+Bananatron,SMB,Ally,Banana Mecha,Order,,Legendary,2,Melee,10,35,,Cycle;Sentinel,Cycle:SEU_1*=>dmg_15->coin_1=>condition_freezed_2,cycle_40,,FALSE,"Cycle: At the end of your turn, a random enemy takes 15 damage and 50% chance to Freeze 1. "
 The Dog,Bonk,Ally,Dog God,Wild,,Epic,3,Melee,25,50,BONK Blaster,,,basicattack_5,,,
 Greenview,Pesky Penguins,Ally,Bird Spirit,Arcane,,Epic,3,Ranged,20,45,Shepards Bane,Stealth;Contact,Contact:SEU_1=>ignore_shield,basicattack_41,"Type, Black; Head, Red Mohawk; Eyes, Aviators; Body, Black Suit",,"Contact: When this attacks or defends, if the enemy has Shield, ignore it."
 Caerus,Saga Monkes,Ally,Monke,Wild,,Rare,2,Melee,20,35,Laser Beam,Teleport,,basicattack_5,,,
