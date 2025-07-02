@@ -1,20 +1,17 @@
 // Cria o teclado virtual como um input HTML invisível
 window.gml_virtual_keyboard_input = document.createElement("input");
 
-// gml_virtual_keyboard_input.type = "text";
-// gml_virtual_keyboard_input.id = "gml_virtual_keyboard_input";
-// gml_virtual_keyboard_input.style.position = "absolute";
-// gml_virtual_keyboard_input.style.top = "-1000px"; // invisível
-// gml_virtual_keyboard_input.style.left = "-1000px";
-// gml_virtual_keyboard_input.style.zIndex = "-1";
-gml_virtual_keyboard_input.style.opacity = "0";   
+gml_virtual_keyboard_input.type = "text";
+gml_virtual_keyboard_input.style.position = "absolute";
+gml_virtual_keyboard_input.style.top = "0px";
+gml_virtual_keyboard_input.style.left = "0px";
+gml_virtual_keyboard_input.style.width = "1px";
+gml_virtual_keyboard_input.style.height = "1px";
+gml_virtual_keyboard_input.style.opacity = "1"; // Em vez de 0 total
+gml_virtual_keyboard_input.style.zIndex = "9999";
+gml_virtual_keyboard_input.autocapitalize = "off";
+gml_virtual_keyboard_input.autocorrect = "off";
 
-// gml_virtual_keyboard_input.style.top = "100px";
-// gml_virtual_keyboard_input.style.left = "100px";
-// gml_virtual_keyboard_input.style.width = "200px";
-// gml_virtual_keyboard_input.style.height = "30px";
-// gml_virtual_keyboard_input.style.fontSize = "20px";
-// gml_virtual_keyboard_input.style.zIndex = "9999";
 document.body.appendChild(gml_virtual_keyboard_input);
 
 // Função para mostrar teclado virtual
