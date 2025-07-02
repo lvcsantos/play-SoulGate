@@ -17,15 +17,15 @@ gml_virtual_keyboard_input.autocorrect = "off";
 document.body.appendChild(gml_virtual_keyboard_input);
 
 window.gml_show_virtual_keyboard = function () {
-    if (document.activeElement !== gml_virtual_keyboard_input) {
+  
         gml_virtual_keyboard_input.focus();
-    }
+    
 };
 
 window.gml_hide_virtual_keyboard = function () {
-    if (document.activeElement === gml_virtual_keyboard_input) {
+   
         gml_virtual_keyboard_input.blur();
-    }
+    
 };
 // Retorna o valor digitado
 window.gml_get_virtual_keyboard_value = function () {
