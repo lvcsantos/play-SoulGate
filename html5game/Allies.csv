@@ -1,7 +1,7 @@
 Name,IP,Type,Species,Origin,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Commands,Animations,Traits,Collectable,Description
 Zombie Champion,Sneks,Ally,Snek Zombie,Arcane,,Epic,5,Melee,30,65,Raise Zombie,Double Tap;Persistent,Persistent:SELF=>buffallies_dmg_10_hp_10>>species_zombie,,"Body, Zombie; Hats, Angel Halo Green; Snake Type, 2 Headed",,Persistent: Buff all Zombie Allies +10 HP and +10 Attack.
 Agent of Rot,Sneks,Ally,Snek Zombie,Arcane,,Epic,3,Melee,20,45,Laser Beam,Contact,Contact:SEU_1=>condition_poisoned_2,,"Body, Zombie; Hats, Horns Green; Glasses, Laser Eyes",,"Contact: When this attacks or defends, the enemy Ally gets Poison 1."
-Zombie Snekinja,Sneks,Ally,Snek Zombie,Arcane,,Epic,1,Ranged,20,20,Laced Shuriken,Last Wish,Last Wish:HERO_FRIENDLY=>summon_1_zombie_snekinja>>remove_passive_last_wish,,"Body, Zombie; Hats, Ninja Hood",,"Last Wish: When this dies, revive it and remove this passive ability."
+Zombie Snekinja,Sneks,Ally,Snek Zombie,Arcane,,Epic,1,Ranged,20,20,Laced Shuriken,Last Wish,Last Wish:HERO_FRIENDLY=>summon_rng_1_zombie_snekinja>>remove_passive_last_wish,,"Body, Zombie; Hats, Ninja Hood",,"Last Wish: When this dies, revive it and remove this passive ability."
 Tutankhensum,Sneks,Ally,Alien Snek,Arcane,,Rare,4,Melee,15,40,Exalted Deity,,,,"Body, Alien; Hats, Pharaoh Red",,
 Psychic Snekinja,Sneks,Ally,Alien Snek,Arcane,,Epic,2,Ranged,20,30,Mental Haze;Psy Darts,Iaijutsu,,,"Body, Alien; Hats, Ninja Hood",,
 Agent of Psy,Sneks,Ally,Alien Snek,Arcane,,Rare,3,Ranged,20,45,Laser Beam,,,,"Body, Alien; Glasses, Laser Eyes",,

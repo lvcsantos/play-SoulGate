@@ -1,6 +1,6 @@
-Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Commands,Description,Animations
-Rotten Pool,Soul Gate,Spell,Ritual,Neutral,,Rare,4,SEU_1=>condition_venomed_6//CROSS=>condition_venomed_6,Give venomed 3 to enemies in a cross area.,confirm_sprite;spot_enemy_0
-Revitalize,Soul Gate,Spell,Invocation,Neutral,,Common,2,SFU_1=>heal_30|draw_1,Draw a card and Heal 30 HP to friendly Character.,confirm_sprite;spot_enemy_0
-Shadeshift,Soul Gate,Spell,Invocation,Neutral,,Common,3,SFA_2=>passive_stealth|buff_-1_dmg_20,Give Stealth and +20 Attack to two Allies.,confirm_sprite;spot_enemy_0
-Illithid Act,Soul Gate,Spell,Trap,Neutral,,Common,3,TRIGGER>>place_ally>>SELF=>condition_charmed_4,"When the next enemy Ally is played, gain control of it for 2 turns.",confirm_sprite;spot_enemy_0
-Magic Mirror,Soul Gate,Spell,Trap,Neutral,,Common,3,TRIGGER>>play_spell>>SELF=>counter_spell,"When the next enemy spell is cast, counter and redirect it to new target(s).",confirm_sprite;spot_original_0
+Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Commands,Description,Animations,Collectable
+Rotten Pool,Soul Gate,Spell,Ritual,Neutral,,Rare,4,SEU_1=>condition_venomed_6//CROSS=>condition_venomed_6,Give venomed 3 to enemies in a cross area.,confirm_sprite;spot_enemy_0,
+Revitalize,Soul Gate,Spell,Invocation,Neutral,,Common,2,SFU_1=>heal_30|draw_1,Draw a card and Heal 30 HP to friendly Character.,confirm_sprite;spot_enemy_0,
+Shadeshift,Soul Gate,Spell,Invocation,Neutral,,Common,3,SFA_2=>passive_stealth|buff_-1_dmg_20,Give Stealth and +20 Attack to two Allies.,confirm_sprite;spot_enemy_0,
+Illithid Act,Soul Gate,Spell,Trap,Neutral,,Common,3,TRIGGER>>place_ally>>SEA_1=>condition_charmed_4,"When the next enemy Ally is played, gain control of it for 2 turns.",confirm_sprite;spot_enemy_0,
+Magic Mirror,Soul Gate,Spell,Trap,Neutral,,Common,3,TRIGGER>>play_spell>>SELF=>counter_spell,"When the next enemy spell is cast, counter and redirect it to new target(s).",confirm_sprite;spot_original_0,

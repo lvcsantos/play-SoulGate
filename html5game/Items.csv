@@ -6,4 +6,3 @@ Health Potion,Soul Gate,Item,Consumable,Neutral,,Common,1,SFU_2=>restored|heal_4
 Mana Surge,Soul Gate,Item,Consumable,Neutral,,Common,1,NONE=>mana_3,Generate 3 mana.,,
 Eye of Horus,Soul Gate,Item,Equipment,Neutral,,Common,2,SFA_1=>passive_hexproof,Gain Hexproof (cannot be targeted by spells or abilities).,,
 Monke Juice,Saga Monkes,Item,Consumable,Neutral,,Rare,2,SU_1->species_monkey=>buff_-1_dmg_30::buff_-1_dmg_20|dmg_20,"Deal 20 damage to a Character and give it +20 Attack. If it's a Monkey, only give it +30 Attack instead.",,confirm_sprite;blackline
-Papyrus of Imhotep,Soul Gate,Spell,Consumable,Neutral,,Rare,2,,Copy a random Item or Spell from your deck and play it.,FALSE,
