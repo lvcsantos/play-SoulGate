@@ -22,7 +22,7 @@ Hexproof,0,Passive,This Character cannot be targeted by Spells or Abilities.,,1,
 Iaijutsu,0,Passive,This Character can Attack immediately.,,1,Sneks,"Outfits, Katana; Body, Orange",,
 Kenjutsu Slash,1,Active,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",0,1,Sneks,"Outfits, Katana",frame_37;confirm_sprite;middle_spot,SEU_1=>dmg_coin>>10>>40
 Kingsguard,3,Active,Summon up to 2 Zombie Sneks.,4,1,DeGods,,,SELF=>summon_rng_2_zombie_snek
-KNOB Blaster,2,Active,"Deal 20 damage to all enemies in this lane, ignores Shield.",2,1,Bonk,,frame_44;confirm_sprite;middle_spot,SEU_1=>dmg_20//LANE=>dmg_20
+BONK Blaster,2,Active,"Deal 20 damage to all enemies in this lane, ignores Shield.",2,1,Bonk,,frame_44;confirm_sprite;middle_spot,SEU_1=>dmg_20//LANE=>dmg_20
 Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. ,2,1,Sneks,"Hats, Ninja Hood",confirm_sprite;projectile_straight_27,SEU_1=>dmg_10|condition_poisoned_2
 Laser Beam,2,Active,"Deal 15 damage to all enemies in this lane, ignores Shield. ",2,1,Sneks,"Glasses, Laser Eyes",frame_22;confirm_sprite;middle_spot,SEU_1=>dmg_10//LANE=>dmg_10
 Last Wish,0,Passive,Triggers an effect when Ally dies in battle.,,1,,,,
@@ -51,7 +51,7 @@ Skyscraper,0,Passive,Grants Skyscraper passive (Similar to Taunt but for enemies
 Snek Gaze,2,Active,Paralyze 1 target enemy.,1,1,,,,SEU_1=>condition_paralyzed_1
 Stealth,0,Passive,Grants Stealth passive (hidden until Action),,1,Sneks,"Body, Black",,
 Sun Disk,2,Active,Deal 30 damage and 50% chance to get Burned.,0,1,,,frame_16;confirm_sprite;middle_spot,SEU_1=>dmg_30->coin_1=>condition_burned_1
-Target Lock,1,Active,Reveal 3 random cards from your opponent's hand and choose one to return to the deck and receive +20 damage for 1 turn.,0,1,GGSG,"Eyes, Mixed Reality Grid",,SELF=>buff_1_dmg_20;SO=>choose_3>>1_hand>>enemy
+Target Lock,1,Active,Reveal 3 random cards from your opponent's hand and choose one to return to the deck and receive +20 damage for 1 turn.,0,1,GGSG,"Eyes, Mixed Reality Grid",frame_21;confirm_sprite;confirm_choose,SELF=>buff_1_dmg_20;SO=>choose_3>>1_hand>>enemy
 Taunt,0,Passive,"Grants Taunt passive, only for Melee (Block all incoming enemy Attacks)",,1,,,,
 Telekinesis,1,Active,Send 1 enemy Ally to the top of their deck. ,3,1,,"Body, Alien",,
 Teleport,0,Passive,"Target any enemy to Attack, ignore Taunt or Flying.",,1,Saga Monkes,,,
