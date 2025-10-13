@@ -28,5 +28,7 @@ Serket Assassin,27,Soul Gate,Ally,Human,Arcane,,Rare,3,Melee,30,30,,Teleport;Ste
 Crocodylus,28,Soul Gate,Ally,Reptile,Wild,,Common,3,Melee,30,40,,Cycle,Cycle:SELF=>heal_20,basicattack_15,,,"Cycle: At the end of your turn, Heal 20 HP."
 Sobek General,29,Soul Gate,Ally,Reptile,Order,,Common,4,Melee,40,50,Enrage,,,basicattack_13,,,
 Zorg Cultist,30,Soul Gate,Ally,Alien,Arcane,,Common,4,Ranged,20,40,Q'verse,Shield,,,,,
-
-
+Charsnek,31,Sneks,Ally,Snek,Wild,,Common,1,Melee,30,15,,Iaijutsu;Contact,Contact:SEU_1->coin=1=>condition_2_burned,,"Body, Orange; Hats, Red Horns",FALSE,"Contact: When this attacks or defends, 50% chance the enemy gets Burned."
+Chardrake,32,Sneks,Ally,Snek,Wild,,Common,2,Melee,20,25,,Flying,,,,FALSE,
+Magmut,33,Sneks,Ally,Snek,Wild,,Rare,3,Melee,30,30,,Arrival,Arrival:AEA=>condition_burned_2,,"Body, Orange; Fans, Orange",FALSE,"Arrival: When this enters, all enemy Allies become Burned."
+Drakaris,34,Sneks,Ally,Snek,Wild,,Rare,4,Ranged,20,40,Fire Breath,Flying;Contact,Contact:SEU_1->coin=1=>condition_paralyzed_1,,"Body, Orange; Mouth, Fire Breath Standard",FALSE,"Contact: When this attacks or defends, 50% chance the enemy gets Paralyzed."
