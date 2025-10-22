@@ -1,8 +1,8 @@
-Name,IP,Type,Subtype,Class,Image,Rarity,Cost,Commands,Description,Collectable,Animations
-Ankh Waset,Soul Gate,Item,Equipment,Neutral,,Rare,3,NONE=>portal_active,Activates the  Soul Gate.,,
-Foul Tonic,Soul Gate,Item,Consumable,Neutral,,Common,2,SU_1->affiliation_friendly=>condition_venomed_10|buff_-1_dmg_20->affiliation_enemy=>condition_venomed_10,"Target gets Envenomed 10. If it's an Ally, it also gets Buffed +20.",,confirm_sprite;spot_enemy_0
-Smoke Bomb,Soul Gate,Item,Consumable,Neutral,,Common,1,AFA=>passive_stealth,All Allies get Stealth.,,
-Health Potion,Soul Gate,Item,Consumable,Neutral,,Common,1,SFU_2=>restored|heal_40,Two Allies get Restored and Healed 40.,,confirm_sprite;spot_enemy_0
-Mana Surge,Soul Gate,Item,Consumable,Neutral,,Common,1,NONE=>mana_3,Generate 3 mana.,,confirm_sprite;spot_original_0
-Eye of Horus,Soul Gate,Item,Equipment,Neutral,,Common,2,SFA_1=>passive_hexproof,Gain Hexproof (cannot be targeted by spells or abilities).,,
-Monke Juice,Saga Monkes,Item,Consumable,Neutral,,Rare,2,SU_1->species_monkey=>buff_-1_dmg_30::buff_-1_dmg_20|dmg_20,"Deal 20 damage to a Character and give it +20 Attack. If it's a Monkey, only give it +30 Attack instead.",,confirm_sprite;blackline
+Name,Id,IP,Type,Subtype,Class,Image,Rarity,Cost,Commands,Description,Collectable,Animations
+Ankh Waset,2,Soul Gate,Item,Equipment,Neutral,,Rare,3,HERO_FRIENDLY=>portal_active,Activates the  Soul Gate.,,
+Foul Tonic,3,Soul Gate,Item,Consumable,Neutral,,Common,2,SA_1->affiliation=friendly=>condition_venomed_10|buff_-1_dmg_20->affiliation=enemy=>condition_venomed_10,"Target Ally gets Envenomed 10. If it's yours, it also gets Buffed +20.",,confirm_sprite;spot_enemy_0
+Smoke Bomb,4,Soul Gate,Item,Consumable,Neutral,,Common,1,AFA=>passive_stealth,All Allies get Stealth.,,
+Health Potion,5,Soul Gate,Item,Consumable,Neutral,,Common,1,SFU_2=>restored|heal_40,Two Allies get Restored and Healed 40.,,confirm_sprite;spot_enemy_0
+Mana Surge,6,Soul Gate,Item,Consumable,Neutral,,Common,1,HERO_FRIENDLY=>mana_3,Generate 3 mana.,,confirm_sprite;spot_original_0
+Eye of Horus,7,Soul Gate,Item,Equipment,Neutral,,Common,2,SFA_1=>passive_hexproof,Gain Hexproof (cannot be targeted by spells or abilities).,,
+Monke Juice,8,Saga Monkes,Item,Consumable,Neutral,,Rare,2,SU_1->species=Monke=>buff_-1_dmg_30::buff_-1_dmg_20|dmg_20,"Deal 20 damage to a Character and give it +20 Attack. If it's a Monkey, only give it +30 Attack instead.",,confirm_sprite;blackline

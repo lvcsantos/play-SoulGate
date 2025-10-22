@@ -1,3 +1,3 @@
-Name,IP,Type,Species,Origin,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Description,Traits,Trait_Type_1,Trait_Name_1,Trait_Type_2,Trait_Name_2,Trait_Type_3,Trait_Name_3,Trait_Type_4,Trait_Name_4,Trait_Type_5,Trait_Name_5,Trait_Type_6,Trait_Name_6,Trait_Type_7,Trait_Name_7,Trait_Type_8,Trait_Name_8
-Nym,SoulGate,Hero,,Arcane,,Legendary,,,,200,Life Cycle;Resurrect,,,,,,,,,,,,,,,,,,,
-Hero2,SoulGate,Hero,,Arcane,,Legendary,,,,200,Mind Read;Mind Control,,,,,,,,,,,,,,,,,,,
+Name,IP,Type,Species,Origin,Image,Rarity,Cost,Zone,Attack_value,HP,Abilities,Passives,Description,Traits
+Nym,Soul Gate,Hero,Human,Wild,,Legendary,,,,200,Mind Read;Mind Control,,,
+Ken,Soul Gate,Hero,Human,Order,,Legendary,,,,200,Life Cycle;Resurrect,,,
