@@ -1,0 +1,8 @@
+Name,Origin,Effect_Description,Commands
+Mercenary,Neutral,Summon a Mercenary unit.,
+Normal,Neutral,No effect on the field,
+Order Planet,Order,Give all Order units +20 HP.,SELF=>buffallies_hp_20>>origin_order
+Arcane Planet,Arcane,Give all Arcane units +20 Attack.,SELF=>buffallies_dmg_20>>origin_arcane
+Wild Planet,Wild,Give all Wild units +10 Attack and +10 HP.,SELF=>buffallies_hp_10_dmg_10>>origin_wild
+Lava Planet,Wild,Deal 10 damage per turn to all non-Wild Allies.,
+Chaos Nebula,Arcane,All Spells cost 1 less Mana.,

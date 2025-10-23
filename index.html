@@ -1,119 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta charset="utf-8" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>Soul Gate</title>
 
-    <!-- Custom PreHead code is injected here -->
-    
+  <style>
+    /* 🔹 Fundo animado (GIF) que cobre a viewport e corta sobras (sem barras pretas) */
+    #bg {
+      position: fixed;
+      inset: 0;
+      background: url("images.gif") no-repeat center center fixed;
+      background-repeat: repeat;  /* use 'auto' se quiser 1:1 sem zoom; use 'contain' se quiser tudo visível */
+      z-index: 0;
+    }
 
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta charset="utf-8"/>
+    /* 🔹 Canvas do jogo: tamanho FIXO e centralizado */
+    #canvas {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1360px;   /* mantém o jogo em 1360×765 */
+      height: 765px;
+      z-index: 1;
+      image-rendering: pixelated;
+      margin: 0; padding: 0; border: 0;
+      -ms-touch-action: none; touch-action: none;
+    }
 
-        <!-- Builtin injector for disabling cache -->
-        <meta http-equiv="pragma" content="no-cache"/>
+    body {
+      background: #000;
+      color: #ccc;
+      margin: 0; overflow: hidden;
+    }
 
-        <!-- Set the title bar of the page -->
-        <title>Soul Gate </title>
+    /* Estilos padrão do runner do GameMaker (opcional) */
+    .gm4html5_div_class { margin: 0; padding: 0; border: 0; z-index: 1; }
+    .gm4html5_login { padding:20px; position:absolute; border:2px solid #000; background:#404040; color:#0f0; border-radius:15px; box-shadow:#101010 20px 20px 40px; }
+    .gm4html5_cancel_button { float:right; }
+    .gm4html5_login_button { float:left; }
+    .gm4html5_login_header { text-align:center; }
+  </style>
+</head>
 
-        <!-- Custom PreStyle code is injected here -->
-        
+<body>
+  <!-- 🔹 Fundo -->
+  <div id="bg"></div>
 
-        <!-- Set the background colour of the document -->
-        <style>
-            body {
-                background: #0;
-                color: #cccccc;
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-            }
+  <!-- 🔹 Container padrão + canvas que o GM vai usar -->
+  <div class="gm4html5_div_class" id="gm4html5_div_id">
+    <canvas id="canvas" width="1360" height="765">
+      <p>Your browser doesn't support HTML5 canvas.</p>
+    </canvas> 
+  </div>
 
-            canvas {
-                image-rendering: optimizeSpeed;
-                -webkit-interpolation-mode: nearest-neighbor;
-                -ms-touch-action: none;
-                touch-action: none;
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-            }
-            :-webkit-full-screen #canvas {
-                width: 100%;
-                height: 100%;
-            }
-            :-webkit-full-screen {
-                width: 100%;
-                height: 100%;
-            }
-            
-            /* Custom Runner Styles */
-            div.gm4html5_div_class {
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-            }
-            div.gm4html5_login {
-                padding: 20px;
-                position: absolute;
-                border: solid 2px #000000;
-                background-color: #404040;
-                color:#00ff00;
-                border-radius: 15px;
-                box-shadow: #101010 20px 20px 40px;
-            }
-            div.gm4html5_cancel_button {
-                float: right;
-            }
-            div.gm4html5_login_button {
-                float: left;
-            }
-            div.gm4html5_login_header {
-                text-align: center;
-            }
-            /* END - Custom Runner Styles */
-            
-        </style>
-
-        <!-- Custom PostStyle code is injected here -->
-        
-
-        <!-- Builtin injector for injecting flurry analytics code -->
-        
-    </head>
-
-    <!-- Custom PostHead code is injected here -->
-    
-
-    <!-- Custom PreBody code is injected here -->
-    
-
-    <body>
-        <div class="gm4html5_div_class" id="gm4html5_div_id">
-            
-            <!-- Builtin injector for splash screen -->
-            
-
-            <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1360" height="765" style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);">
-                <p>Your browser doesn't support HTML5 canvas.</p>
-            </canvas>
-        </div>
-
-        <!-- Run the game code -->
-        <script type="text/javascript" src="html5game/sneks.js?cachebust=228627613"></script>
-
-        <!-- Builtin injector for injecting runner path -->
-        
-
-        <script>window.onload = GameMaker_Init;</script>
-
-        <!-- Builtin injector for injecting google analytics code -->
-        
-
-    </body>
-
-    <!-- Custom PostBody code is injected here -->
-    
+  <!-- 🔹 Carrega o jogo (ajuste o nome do .js se for diferente) -->
+  <script src="game/html5game/sneks.js"></script>
+  <script>window.onload = GameMaker_Init;</script>
+</body>
 </html>
