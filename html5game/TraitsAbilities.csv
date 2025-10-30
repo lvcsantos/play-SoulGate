@@ -22,7 +22,7 @@ Enrage,1,Active,This Character receive +10 damage and weakned for 2 turns.,4,1,,
 Kenjutsu Slash,1,Active,"Slash target enemy 1-4 times randomly, each dealing 10 damage.",1,1,Sneks,"Outfits, Katana",frame_37;confirm_sprite;middle_spot,SEU_1=>dmg_coin>>10>>40
 Laced Shuriken,1,Active,Deal 10 damage and Poison 2 to target enemy. ,2,1,Sneks,"Hats, Ninja Hood",confirm_sprite;projectile_straight_27,SEU_1=>dmg_10|condition_poisoned_2
 Mind Read,1,Active,Reveal 1 card from the enemy hand.,1,1,Sneks,"Body, Alien; Hats, Pharaoh Blue",,SELF=>reveal_hand_enemy_1
-Target Lock,1,Active,Reveal 3 random cards from your opponent's hand and choose one to go to your hand and receive +20 damage for 1 turn.,1,0,GGSG,"Eyes, Mixed Reality Grid",frame_21;confirm_sprite;confirm_choose,SELF=>buff_1_dmg_20;SO=>choose_3>>1_hand>>enemy
+Target Lock,1,Active,"Reveal a card from the enemy’s hand, if its cost is 5 or higher, your ally gains the Shield passive.",1,0,GGSG,"Eyes, Mixed Reality Grid",confirm_choose;confirm_sprite;frame_20,REVEAL_1=>hand_enemy_1->cost+=5=>execute_(SELF=>passive_shield)
 Telekinesis,1,Active,Send 1 enemy Ally to the top of their deck. ,3,1,,"Body, Alien",,
 Bananatron,2,Active,Summon a Bananatron. ,6,1,SMB,"Species, Snow",frame_16;confirm_sprite,SELF=>summon_front_1_bananatron
 Breath Aura,2,Active,Buff all other Melee Allies +10 Attack until end of turn and give them Shield. ,6,1,Sensei Pandas,,,AFA->zone=melee=>buff_1_dmg_10|passive_shield
@@ -61,5 +61,5 @@ Raise Dead,5,Active,Return an Ally from any grave to the battlefield under your 
 Mercenary,,Passive,Does not belong to any player,,1,,,,
 Sentinel,,Passive,Can't attack.,,1,,,,
 Boon of Apophis,,Passive,The basic attack hits adjacent allies,,1,,,,
-Combat Technique,1,Active,Give the passive Iaijutsu to some wild ally,3,1,,,,SEA_1->origin=Wild=>passive_iaijutsu
-Rest,3,Active,Restores an ally's cooldowns,3,1,,,,SEA_1=>rest
+Combat Technique,1,Active,Give the passive Iaijutsu to some wild ally,3,1,,,,SFA_1->origin=Wild=>passive_iaijutsu
+Rest,3,Active,Restores an ally's cooldowns,3,1,,,,SFA_1=>rest

@@ -20,3 +20,4 @@ Lane Units,LANE,proximity,,Target in lane units
 Adjacent Units,ADJ,proximity,,Target adjacent units
 Same Zone Units,ROW,proximity,,Target  the same zone units
 Trap Trigger,TRIGGER,trap,,Describe the trigger for trap
+Reveal Card,REVEAL_X,reveal,,Reveal X cards
