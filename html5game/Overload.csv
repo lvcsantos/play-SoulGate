@@ -1,0 +1,10 @@
+Name,IP,Id,Species,Origin,Attack_value,HP,Passives,Zone,power,Animations
+Zombie Snekinja,Sneks,1,Zombie,Wild,20,20,,Melee,40,
+Oaken Snekurai,Sneks,2,Snek,Order,20,30,Iaijutsu,Melee,50,basicattack_38
+Caerus,Saga Monkes,3,Monke,Wild,20,35,,Melee,55,basicattack_5
+Greenview,Pesky Penguins,4,Bird,Arcane,20,45,Stealth,Ranged,65,basicattack_41
+Zox Galactic Menace,GGSG,5,Reptile,Order,30,40,Shield,Melee,70,basicattack_5
+The Dog,Bonk,6,Beast,Wild,25,50,,Melee,75,basicattack_5
+Monty the White,SMB,7,Monke,Wild,30,50,,Ranged,80,basicattack_25
+Poku,Sensei Panda,8,Beast,Order,30,60,,Melee,90,basicattack_9
+Rex,Claynosaurz,9,Reptile,Order,30,70,,Melee,100,basicattack_16
